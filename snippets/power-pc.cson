@@ -1,0 +1,5533 @@
+'.source.PPCasm':
+  'Register 0':
+   'prefix': 'r0'
+   'body': 'r0'
+  'Register 1':
+   'prefix': 'r1'
+   'body': 'r1'
+  'Register 2':
+   'prefix': 'r2'
+   'body': 'r2'
+  'Register 3':
+   'prefix': 'r3'
+   'body': 'r3'
+  'Register 4':
+   'prefix': 'r4'
+   'body': 'r4'
+  'Register 5':
+   'prefix': 'r5'
+   'body': 'r5'
+  'Register 6':
+   'prefix': 'r6'
+   'body': 'r6'
+  'Register 7':
+   'prefix': 'r7'
+   'body': 'r7'
+  'Register 8':
+   'prefix': 'r8'
+   'body': 'r8'
+  'Register 9':
+   'prefix': 'r9'
+   'body': 'r9'
+  'Register 10':
+   'prefix': 'r10'
+   'body': 'r10'
+  'Register 11':
+   'prefix': 'r11'
+   'body': 'r11'
+  'Register 12':
+   'prefix': 'r12'
+   'body': 'r12'
+  'Register 13':
+   'prefix': 'r13'
+   'body': 'r13'
+  'Register 14':
+   'prefix': 'r14'
+   'body': 'r14'
+  'Register 15':
+   'prefix': 'r15'
+   'body': 'r15'
+  'Register 16':
+   'prefix': 'r16'
+   'body': 'r16'
+  'Register 17':
+   'prefix': 'r17'
+   'body': 'r17'
+  'Register 18':
+   'prefix': 'r18'
+   'body': 'r18'
+  'Register 19':
+   'prefix': 'r19'
+   'body': 'r19'
+  'Register 20':
+   'prefix': 'r20'
+   'body': 'r20'
+  'Register 21':
+   'prefix': 'r21'
+   'body': 'r21'
+  'Register 22':
+   'prefix': 'r22'
+   'body': 'r22'
+  'Register 23':
+   'prefix': 'r23'
+   'body': 'r23'
+  'Register 24':
+   'prefix': 'r24'
+   'body': 'r24'
+  'Register 25':
+   'prefix': 'r25'
+   'body': 'r25'
+  'Register 26':
+   'prefix': 'r26'
+   'body': 'r26'
+  'Register 27':
+   'prefix': 'r27'
+   'body': 'r27'
+  'Register 28':
+   'prefix': 'r28'
+   'body': 'r28'
+  'Register 29':
+   'prefix': 'r29'
+   'body': 'r29'
+  'Register 30':
+   'prefix': 'r30'
+   'body': 'r30'
+  'Register 31':
+   'prefix': 'r31'
+   'body': 'r31'
+  'Float Register 32':
+   'prefix': 'f0'
+   'body': 'f0'
+  'Float Register 33':
+   'prefix': 'f1'
+   'body': 'f1'
+  'Float Register 34':
+   'prefix': 'f2'
+   'body': 'f2'
+  'Float Register 35':
+   'prefix': 'f3'
+   'body': 'f3'
+  'Float Register 36':
+   'prefix': 'f4'
+   'body': 'f4'
+  'Float Register 37':
+   'prefix': 'f5'
+   'body': 'f5'
+  'Float Register 38':
+   'prefix': 'f6'
+   'body': 'f6'
+  'Float Register 39':
+   'prefix': 'f7'
+   'body': 'f7'
+  'Float Register 40':
+   'prefix': 'f8'
+   'body': 'f8'
+  'Float Register 41':
+   'prefix': 'f9'
+   'body': 'f9'
+  'Float Register 42':
+   'prefix': 'f10'
+   'body': 'f10'
+  'Float Register 43':
+   'prefix': 'f11'
+   'body': 'f11'
+  'Float Register 44':
+   'prefix': 'f12'
+   'body': 'f12'
+  'Float Register 45':
+   'prefix': 'f13'
+   'body': 'f13'
+  'Float Register 46':
+   'prefix': 'f14'
+   'body': 'f14'
+  'Float Register 47':
+   'prefix': 'f15'
+   'body': 'f15'
+  'Float Register 48':
+   'prefix': 'f16'
+   'body': 'f16'
+  'Float Register 49':
+   'prefix': 'f17'
+   'body': 'f17'
+  'Float Register 50':
+   'prefix': 'f18'
+   'body': 'f18'
+  'Float Register 51':
+   'prefix': 'f19'
+   'body': 'f19'
+  'Float Register 52':
+   'prefix': 'f20'
+   'body': 'f20'
+  'Float Register 53':
+   'prefix': 'f21'
+   'body': 'f21'
+  'Float Register 54':
+   'prefix': 'f22'
+   'body': 'f22'
+  'Float Register 55':
+   'prefix': 'f23'
+   'body': 'f23'
+  'Float Register 56':
+   'prefix': 'f24'
+   'body': 'f24'
+  'Float Register 57':
+   'prefix': 'f25'
+   'body': 'f25'
+  'Float Register 58':
+   'prefix': 'f26'
+   'body': 'f26'
+  'Float Register 59':
+   'prefix': 'f27'
+   'body': 'f27'
+  'Float Register 60':
+   'prefix': 'f28'
+   'body': 'f28'
+  'Float Register 61':
+   'prefix': 'f29'
+   'body': 'f29'
+  'Float Register 62':
+   'prefix': 'f30'
+   'body': 'f30'
+  'A':
+   'prefix': 'a'
+   'body': 'a'
+  'Abs':
+   'prefix': 'abs'
+   'body': 'abs'
+  'Abso':
+   'prefix': 'abso'
+   'body': 'abso'
+  'Add':
+   'prefix': 'add'
+   'body': 'add'
+  'Addc':
+   'prefix': 'addc'
+   'body': 'addc'
+  'Addco':
+   'prefix': 'addco'
+   'body': 'addco'
+  'Adde':
+   'prefix': 'adde'
+   'body': 'adde'
+  'Adde64':
+   'prefix': 'adde64'
+   'body': 'adde64'
+  'Adde64o':
+   'prefix': 'adde64o'
+   'body': 'adde64o'
+  'Addeo':
+   'prefix': 'addeo'
+   'body': 'addeo'
+  'Addi':
+   'prefix': 'addi'
+   'body': 'addi'
+  'Addic':
+   'prefix': 'addic'
+   'body': 'addic'
+  'Addis':
+   'prefix': 'addis'
+   'body': 'addis'
+  'Addme':
+   'prefix': 'addme'
+   'body': 'addme'
+  'Addme64':
+   'prefix': 'addme64'
+   'body': 'addme64'
+  'Addme64o':
+   'prefix': 'addme64o'
+   'body': 'addme64o'
+  'Addmeo':
+   'prefix': 'addmeo'
+   'body': 'addmeo'
+  'Addo':
+   'prefix': 'addo'
+   'body': 'addo'
+  'Addze':
+   'prefix': 'addze'
+   'body': 'addze'
+  'Addze64':
+   'prefix': 'addze64'
+   'body': 'addze64'
+  'Addze64o':
+   'prefix': 'addze64o'
+   'body': 'addze64o'
+  'Addzeo':
+   'prefix': 'addzeo'
+   'body': 'addzeo'
+  'Ae':
+   'prefix': 'ae'
+   'body': 'ae'
+  'Aeo':
+   'prefix': 'aeo'
+   'body': 'aeo'
+  'Ai':
+   'prefix': 'ai'
+   'body': 'ai'
+  'Ame':
+   'prefix': 'ame'
+   'body': 'ame'
+  'Ameo':
+   'prefix': 'ameo'
+   'body': 'ameo'
+  'And':
+   'prefix': 'and'
+   'body': 'and'
+  'Andc':
+   'prefix': 'andc'
+   'body': 'andc'
+  'Andi':
+   'prefix': 'andi'
+   'body': 'andi'
+  'Andis':
+   'prefix': 'andis'
+   'body': 'andis'
+  'Ao':
+   'prefix': 'ao'
+   'body': 'ao'
+  'Attn':
+   'prefix': 'attn'
+   'body': 'attn'
+  'Aze':
+   'prefix': 'aze'
+   'body': 'aze'
+  'Azeo':
+   'prefix': 'azeo'
+   'body': 'azeo'
+  'B':
+   'prefix': 'b'
+   'body': 'b'
+  'Ba':
+   'prefix': 'ba'
+   'body': 'ba'
+  'Bbelr':
+   'prefix': 'bbelr'
+   'body': 'bbelr'
+  'Bbf':
+   'prefix': 'bbf'
+   'body': 'bbf'
+  'Bbfa':
+   'prefix': 'bbfa'
+   'body': 'bbfa'
+  'Bbfl':
+   'prefix': 'bbfl'
+   'body': 'bbfl'
+  'Bbfla':
+   'prefix': 'bbfla'
+   'body': 'bbfla'
+  'Bbfr':
+   'prefix': 'bbfr'
+   'body': 'bbfr'
+  'Bbfrl':
+   'prefix': 'bbfrl'
+   'body': 'bbfrl'
+  'Bblels':
+   'prefix': 'bblels'
+   'body': 'bblels'
+  'Bbt':
+   'prefix': 'bbt'
+   'body': 'bbt'
+  'Bbta':
+   'prefix': 'bbta'
+   'body': 'bbta'
+  'Bbtl':
+   'prefix': 'bbtl'
+   'body': 'bbtl'
+  'Bbtla':
+   'prefix': 'bbtla'
+   'body': 'bbtla'
+  'Bbtr':
+   'prefix': 'bbtr'
+   'body': 'bbtr'
+  'Bbtrl':
+   'prefix': 'bbtrl'
+   'body': 'bbtrl'
+  'Bc':
+   'prefix': 'bc'
+   'body': 'bc'
+  'Bca':
+   'prefix': 'bca'
+   'body': 'bca'
+  'Bcc':
+   'prefix': 'bcc'
+   'body': 'bcc'
+  'Bccl':
+   'prefix': 'bccl'
+   'body': 'bccl'
+  'Bcctr':
+   'prefix': 'bcctr'
+   'body': 'bcctr'
+  'Bcctre':
+   'prefix': 'bcctre'
+   'body': 'bcctre'
+  'Bcctrel':
+   'prefix': 'bcctrel'
+   'body': 'bcctrel'
+  'Bcctrl':
+   'prefix': 'bcctrl'
+   'body': 'bcctrl'
+  'Bce':
+   'prefix': 'bce'
+   'body': 'bce'
+  'Bcea':
+   'prefix': 'bcea'
+   'body': 'bcea'
+  'Bcel':
+   'prefix': 'bcel'
+   'body': 'bcel'
+  'Bcela':
+   'prefix': 'bcela'
+   'body': 'bcela'
+  'Bcl':
+   'prefix': 'bcl'
+   'body': 'bcl'
+  'Bcla':
+   'prefix': 'bcla'
+   'body': 'bcla'
+  'Bclr':
+   'prefix': 'bclr'
+   'body': 'bclr'
+  'Bclre':
+   'prefix': 'bclre'
+   'body': 'bclre'
+  'Bclrel':
+   'prefix': 'bclrel'
+   'body': 'bclrel'
+  'Bclrl':
+   'prefix': 'bclrl'
+   'body': 'bclrl'
+  'Bcr':
+   'prefix': 'bcr'
+   'body': 'bcr'
+  'Bcrl':
+   'prefix': 'bcrl'
+   'body': 'bcrl'
+  'Bctr':
+   'prefix': 'bctr'
+   'body': 'bctr'
+  'Bctrl':
+   'prefix': 'bctrl'
+   'body': 'bctrl'
+  'Bdn':
+   'prefix': 'bdn'
+   'body': 'bdn'
+  'Bdna':
+   'prefix': 'bdna'
+   'body': 'bdna'
+  'Bdnl':
+   'prefix': 'bdnl'
+   'body': 'bdnl'
+  'Bdnla':
+   'prefix': 'bdnla'
+   'body': 'bdnla'
+  'Bdnz':
+   'prefix': 'bdnz'
+   'body': 'bdnz'
+  'Bdnza':
+   'prefix': 'bdnza'
+   'body': 'bdnza'
+  'Bdnzf':
+   'prefix': 'bdnzf'
+   'body': 'bdnzf'
+  'Bdnzfa':
+   'prefix': 'bdnzfa'
+   'body': 'bdnzfa'
+  'Bdnzfl':
+   'prefix': 'bdnzfl'
+   'body': 'bdnzfl'
+  'Bdnzfla':
+   'prefix': 'bdnzfla'
+   'body': 'bdnzfla'
+  'Bdnzflr':
+   'prefix': 'bdnzflr'
+   'body': 'bdnzflr'
+  'Bdnzflrl':
+   'prefix': 'bdnzflrl'
+   'body': 'bdnzflrl'
+  'Bdnzl':
+   'prefix': 'bdnzl'
+   'body': 'bdnzl'
+  'Bdnzla':
+   'prefix': 'bdnzla'
+   'body': 'bdnzla'
+  'Bdnzlr':
+   'prefix': 'bdnzlr'
+   'body': 'bdnzlr'
+  'Bdnzlrl':
+   'prefix': 'bdnzlrl'
+   'body': 'bdnzlrl'
+  'Bdnzt':
+   'prefix': 'bdnzt'
+   'body': 'bdnzt'
+  'Bdnzta':
+   'prefix': 'bdnzta'
+   'body': 'bdnzta'
+  'Bdnztl':
+   'prefix': 'bdnztl'
+   'body': 'bdnztl'
+  'Bdnztla':
+   'prefix': 'bdnztla'
+   'body': 'bdnztla'
+  'Bdnztlr':
+   'prefix': 'bdnztlr'
+   'body': 'bdnztlr'
+  'Bdnztlrl':
+   'prefix': 'bdnztlrl'
+   'body': 'bdnztlrl'
+  'Bdz':
+   'prefix': 'bdz'
+   'body': 'bdz'
+  'Bdza':
+   'prefix': 'bdza'
+   'body': 'bdza'
+  'Bdzf':
+   'prefix': 'bdzf'
+   'body': 'bdzf'
+  'Bdzfa':
+   'prefix': 'bdzfa'
+   'body': 'bdzfa'
+  'Bdzfl':
+   'prefix': 'bdzfl'
+   'body': 'bdzfl'
+  'Bdzfla':
+   'prefix': 'bdzfla'
+   'body': 'bdzfla'
+  'Bdzflr':
+   'prefix': 'bdzflr'
+   'body': 'bdzflr'
+  'Bdzflrl':
+   'prefix': 'bdzflrl'
+   'body': 'bdzflrl'
+  'Bdzl':
+   'prefix': 'bdzl'
+   'body': 'bdzl'
+  'Bdzla':
+   'prefix': 'bdzla'
+   'body': 'bdzla'
+  'Bdzlr':
+   'prefix': 'bdzlr'
+   'body': 'bdzlr'
+  'Bdzlrl':
+   'prefix': 'bdzlrl'
+   'body': 'bdzlrl'
+  'Bdzt':
+   'prefix': 'bdzt'
+   'body': 'bdzt'
+  'Bdzta':
+   'prefix': 'bdzta'
+   'body': 'bdzta'
+  'Bdztl':
+   'prefix': 'bdztl'
+   'body': 'bdztl'
+  'Bdztla':
+   'prefix': 'bdztla'
+   'body': 'bdztla'
+  'Bdztlr':
+   'prefix': 'bdztlr'
+   'body': 'bdztlr'
+  'Bdztlrl':
+   'prefix': 'bdztlrl'
+   'body': 'bdztlrl'
+  'Be':
+   'prefix': 'be'
+   'body': 'be'
+  'Bea':
+   'prefix': 'bea'
+   'body': 'bea'
+  'Bel':
+   'prefix': 'bel'
+   'body': 'bel'
+  'Bela':
+   'prefix': 'bela'
+   'body': 'bela'
+  'Beq':
+   'prefix': 'beq'
+   'body': 'beq'
+  'Beqa':
+   'prefix': 'beqa'
+   'body': 'beqa'
+  'Beqctr':
+   'prefix': 'beqctr'
+   'body': 'beqctr'
+  'Beqctrl':
+   'prefix': 'beqctrl'
+   'body': 'beqctrl'
+  'Beql':
+   'prefix': 'beql'
+   'body': 'beql'
+  'Beqla':
+   'prefix': 'beqla'
+   'body': 'beqla'
+  'Beqlr':
+   'prefix': 'beqlr'
+   'body': 'beqlr'
+  'Beqlrl':
+   'prefix': 'beqlrl'
+   'body': 'beqlrl'
+  'Beqr':
+   'prefix': 'beqr'
+   'body': 'beqr'
+  'Beqrl':
+   'prefix': 'beqrl'
+   'body': 'beqrl'
+  'Bf':
+   'prefix': 'bf'
+   'body': 'bf'
+  'Bfa':
+   'prefix': 'bfa'
+   'body': 'bfa'
+  'Bfctr':
+   'prefix': 'bfctr'
+   'body': 'bfctr'
+  'Bfctrl':
+   'prefix': 'bfctrl'
+   'body': 'bfctrl'
+  'Bfl':
+   'prefix': 'bfl'
+   'body': 'bfl'
+  'Bfla':
+   'prefix': 'bfla'
+   'body': 'bfla'
+  'Bflr':
+   'prefix': 'bflr'
+   'body': 'bflr'
+  'Bflrl':
+   'prefix': 'bflrl'
+   'body': 'bflrl'
+  'Bge':
+   'prefix': 'bge'
+   'body': 'bge'
+  'Bgea':
+   'prefix': 'bgea'
+   'body': 'bgea'
+  'Bgectr':
+   'prefix': 'bgectr'
+   'body': 'bgectr'
+  'Bgectrl':
+   'prefix': 'bgectrl'
+   'body': 'bgectrl'
+  'Bgel':
+   'prefix': 'bgel'
+   'body': 'bgel'
+  'Bgela':
+   'prefix': 'bgela'
+   'body': 'bgela'
+  'Bgelr':
+   'prefix': 'bgelr'
+   'body': 'bgelr'
+  'Bgelrl':
+   'prefix': 'bgelrl'
+   'body': 'bgelrl'
+  'Bger':
+   'prefix': 'bger'
+   'body': 'bger'
+  'Bgerl':
+   'prefix': 'bgerl'
+   'body': 'bgerl'
+  'Bgt':
+   'prefix': 'bgt'
+   'body': 'bgt'
+  'Bgta':
+   'prefix': 'bgta'
+   'body': 'bgta'
+  'Bgtctr':
+   'prefix': 'bgtctr'
+   'body': 'bgtctr'
+  'Bgtctrl':
+   'prefix': 'bgtctrl'
+   'body': 'bgtctrl'
+  'Bgtl':
+   'prefix': 'bgtl'
+   'body': 'bgtl'
+  'Bgtla':
+   'prefix': 'bgtla'
+   'body': 'bgtla'
+  'Bgtlr':
+   'prefix': 'bgtlr'
+   'body': 'bgtlr'
+  'Bgtlrl':
+   'prefix': 'bgtlrl'
+   'body': 'bgtlrl'
+  'Bgtr':
+   'prefix': 'bgtr'
+   'body': 'bgtr'
+  'Bgtrl':
+   'prefix': 'bgtrl'
+   'body': 'bgtrl'
+  'Bl':
+   'prefix': 'bl'
+   'body': 'bl'
+  'Bla':
+   'prefix': 'bla'
+   'body': 'bla'
+  'Ble':
+   'prefix': 'ble'
+   'body': 'ble'
+  'Blea':
+   'prefix': 'blea'
+   'body': 'blea'
+  'Blectr':
+   'prefix': 'blectr'
+   'body': 'blectr'
+  'Blectrl':
+   'prefix': 'blectrl'
+   'body': 'blectrl'
+  'Blel':
+   'prefix': 'blel'
+   'body': 'blel'
+  'Blela':
+   'prefix': 'blela'
+   'body': 'blela'
+  'Blelr':
+   'prefix': 'blelr'
+   'body': 'blelr'
+  'Blelrl':
+   'prefix': 'blelrl'
+   'body': 'blelrl'
+  'Bler':
+   'prefix': 'bler'
+   'body': 'bler'
+  'Blerl':
+   'prefix': 'blerl'
+   'body': 'blerl'
+  'Blr':
+   'prefix': 'blr'
+   'body': 'blr'
+  'Blrl':
+   'prefix': 'blrl'
+   'body': 'blrl'
+  'Blt':
+   'prefix': 'blt'
+   'body': 'blt'
+  'Blta':
+   'prefix': 'blta'
+   'body': 'blta'
+  'Bltctr':
+   'prefix': 'bltctr'
+   'body': 'bltctr'
+  'Bltctrl':
+   'prefix': 'bltctrl'
+   'body': 'bltctrl'
+  'Bltl':
+   'prefix': 'bltl'
+   'body': 'bltl'
+  'Bltla':
+   'prefix': 'bltla'
+   'body': 'bltla'
+  'Bltlr':
+   'prefix': 'bltlr'
+   'body': 'bltlr'
+  'Bltlrl':
+   'prefix': 'bltlrl'
+   'body': 'bltlrl'
+  'Bltr':
+   'prefix': 'bltr'
+   'body': 'bltr'
+  'Bltrl':
+   'prefix': 'bltrl'
+   'body': 'bltrl'
+  'Bne':
+   'prefix': 'bne'
+   'body': 'bne'
+  'Bnea':
+   'prefix': 'bnea'
+   'body': 'bnea'
+  'Bnectr':
+   'prefix': 'bnectr'
+   'body': 'bnectr'
+  'Bnectrl':
+   'prefix': 'bnectrl'
+   'body': 'bnectrl'
+  'Bnel':
+   'prefix': 'bnel'
+   'body': 'bnel'
+  'Bnela':
+   'prefix': 'bnela'
+   'body': 'bnela'
+  'Bnelr':
+   'prefix': 'bnelr'
+   'body': 'bnelr'
+  'Bnelrl':
+   'prefix': 'bnelrl'
+   'body': 'bnelrl'
+  'Bner':
+   'prefix': 'bner'
+   'body': 'bner'
+  'Bnerl':
+   'prefix': 'bnerl'
+   'body': 'bnerl'
+  'Bng':
+   'prefix': 'bng'
+   'body': 'bng'
+  'Bnga':
+   'prefix': 'bnga'
+   'body': 'bnga'
+  'Bngctr':
+   'prefix': 'bngctr'
+   'body': 'bngctr'
+  'Bngctrl':
+   'prefix': 'bngctrl'
+   'body': 'bngctrl'
+  'Bngl':
+   'prefix': 'bngl'
+   'body': 'bngl'
+  'Bngla':
+   'prefix': 'bngla'
+   'body': 'bngla'
+  'Bnglr':
+   'prefix': 'bnglr'
+   'body': 'bnglr'
+  'Bnglrl':
+   'prefix': 'bnglrl'
+   'body': 'bnglrl'
+  'Bngr':
+   'prefix': 'bngr'
+   'body': 'bngr'
+  'Bngrl':
+   'prefix': 'bngrl'
+   'body': 'bngrl'
+  'Bnl':
+   'prefix': 'bnl'
+   'body': 'bnl'
+  'Bnla':
+   'prefix': 'bnla'
+   'body': 'bnla'
+  'Bnlctr':
+   'prefix': 'bnlctr'
+   'body': 'bnlctr'
+  'Bnlctrl':
+   'prefix': 'bnlctrl'
+   'body': 'bnlctrl'
+  'Bnll':
+   'prefix': 'bnll'
+   'body': 'bnll'
+  'Bnlla':
+   'prefix': 'bnlla'
+   'body': 'bnlla'
+  'Bnllr':
+   'prefix': 'bnllr'
+   'body': 'bnllr'
+  'Bnllrl':
+   'prefix': 'bnllrl'
+   'body': 'bnllrl'
+  'Bnlr':
+   'prefix': 'bnlr'
+   'body': 'bnlr'
+  'Bnlrl':
+   'prefix': 'bnlrl'
+   'body': 'bnlrl'
+  'Bns':
+   'prefix': 'bns'
+   'body': 'bns'
+  'Bnsa':
+   'prefix': 'bnsa'
+   'body': 'bnsa'
+  'Bnsctr':
+   'prefix': 'bnsctr'
+   'body': 'bnsctr'
+  'Bnsctrl':
+   'prefix': 'bnsctrl'
+   'body': 'bnsctrl'
+  'Bnsl':
+   'prefix': 'bnsl'
+   'body': 'bnsl'
+  'Bnsla':
+   'prefix': 'bnsla'
+   'body': 'bnsla'
+  'Bnslr':
+   'prefix': 'bnslr'
+   'body': 'bnslr'
+  'Bnslrl':
+   'prefix': 'bnslrl'
+   'body': 'bnslrl'
+  'Bnsr':
+   'prefix': 'bnsr'
+   'body': 'bnsr'
+  'Bnsrl':
+   'prefix': 'bnsrl'
+   'body': 'bnsrl'
+  'Bnu':
+   'prefix': 'bnu'
+   'body': 'bnu'
+  'Bnua':
+   'prefix': 'bnua'
+   'body': 'bnua'
+  'Bnuctr':
+   'prefix': 'bnuctr'
+   'body': 'bnuctr'
+  'Bnuctrl':
+   'prefix': 'bnuctrl'
+   'body': 'bnuctrl'
+  'Bnul':
+   'prefix': 'bnul'
+   'body': 'bnul'
+  'Bnula':
+   'prefix': 'bnula'
+   'body': 'bnula'
+  'Bnulr':
+   'prefix': 'bnulr'
+   'body': 'bnulr'
+  'Bnulrl':
+   'prefix': 'bnulrl'
+   'body': 'bnulrl'
+  'Br':
+   'prefix': 'br'
+   'body': 'br'
+  'Brinc':
+   'prefix': 'brinc'
+   'body': 'brinc'
+  'Brl':
+   'prefix': 'brl'
+   'body': 'brl'
+  'Bso':
+   'prefix': 'bso'
+   'body': 'bso'
+  'Bsoa':
+   'prefix': 'bsoa'
+   'body': 'bsoa'
+  'Bsoctr':
+   'prefix': 'bsoctr'
+   'body': 'bsoctr'
+  'Bsoctrl':
+   'prefix': 'bsoctrl'
+   'body': 'bsoctrl'
+  'Bsol':
+   'prefix': 'bsol'
+   'body': 'bsol'
+  'Bsola':
+   'prefix': 'bsola'
+   'body': 'bsola'
+  'Bsolr':
+   'prefix': 'bsolr'
+   'body': 'bsolr'
+  'Bsolrl':
+   'prefix': 'bsolrl'
+   'body': 'bsolrl'
+  'Bsor':
+   'prefix': 'bsor'
+   'body': 'bsor'
+  'Bsorl':
+   'prefix': 'bsorl'
+   'body': 'bsorl'
+  'Bt':
+   'prefix': 'bt'
+   'body': 'bt'
+  'Bta':
+   'prefix': 'bta'
+   'body': 'bta'
+  'Btctr':
+   'prefix': 'btctr'
+   'body': 'btctr'
+  'Btctrl':
+   'prefix': 'btctrl'
+   'body': 'btctrl'
+  'Btl':
+   'prefix': 'btl'
+   'body': 'btl'
+  'Btla':
+   'prefix': 'btla'
+   'body': 'btla'
+  'Btlr':
+   'prefix': 'btlr'
+   'body': 'btlr'
+  'Btlrl':
+   'prefix': 'btlrl'
+   'body': 'btlrl'
+  'Bun':
+   'prefix': 'bun'
+   'body': 'bun'
+  'Buna':
+   'prefix': 'buna'
+   'body': 'buna'
+  'Bunctr':
+   'prefix': 'bunctr'
+   'body': 'bunctr'
+  'Bunctrl':
+   'prefix': 'bunctrl'
+   'body': 'bunctrl'
+  'Bunl':
+   'prefix': 'bunl'
+   'body': 'bunl'
+  'Bunla':
+   'prefix': 'bunla'
+   'body': 'bunla'
+  'Bunlr':
+   'prefix': 'bunlr'
+   'body': 'bunlr'
+  'Bunlrl':
+   'prefix': 'bunlrl'
+   'body': 'bunlrl'
+  'Cal':
+   'prefix': 'cal'
+   'body': 'cal'
+  'Cau':
+   'prefix': 'cau'
+   'body': 'cau'
+  'Cax':
+   'prefix': 'cax'
+   'body': 'cax'
+  'Caxo':
+   'prefix': 'caxo'
+   'body': 'caxo'
+  'Cctph':
+   'prefix': 'cctph'
+   'body': 'cctph'
+  'Cctpl':
+   'prefix': 'cctpl'
+   'body': 'cctpl'
+  'Cctpm':
+   'prefix': 'cctpm'
+   'body': 'cctpm'
+  'Clcs':
+   'prefix': 'clcs'
+   'body': 'clcs'
+  'Clf':
+   'prefix': 'clf'
+   'body': 'clf'
+  'Cli':
+   'prefix': 'cli'
+   'body': 'cli'
+  'Clrldi':
+   'prefix': 'clrldi'
+   'body': 'clrldi'
+  'Clrlsldi':
+   'prefix': 'clrlsldi'
+   'body': 'clrlsldi'
+  'Clrlslwi':
+   'prefix': 'clrlslwi'
+   'body': 'clrlslwi'
+  'Clrlwi':
+   'prefix': 'clrlwi'
+   'body': 'clrlwi'
+  'Clrrdi':
+   'prefix': 'clrrdi'
+   'body': 'clrrdi'
+  'Clrrwi':
+   'prefix': 'clrrwi'
+   'body': 'clrrwi'
+  'Cmp':
+   'prefix': 'cmp'
+   'body': 'cmp'
+  'Cmpb':
+   'prefix': 'cmpb'
+   'body': 'cmpb'
+  'Cmpd':
+   'prefix': 'cmpd'
+   'body': 'cmpd'
+  'Cmpdi':
+   'prefix': 'cmpdi'
+   'body': 'cmpdi'
+  'Cmpi':
+   'prefix': 'cmpi'
+   'body': 'cmpi'
+  'Cmpl':
+   'prefix': 'cmpl'
+   'body': 'cmpl'
+  'Cmpld':
+   'prefix': 'cmpld'
+   'body': 'cmpld'
+  'Cmpldi':
+   'prefix': 'cmpldi'
+   'body': 'cmpldi'
+  'Cmpli':
+   'prefix': 'cmpli'
+   'body': 'cmpli'
+  'Cmplw':
+   'prefix': 'cmplw'
+   'body': 'cmplw'
+  'Cmplwi':
+   'prefix': 'cmplwi'
+   'body': 'cmplwi'
+  'Cmpw':
+   'prefix': 'cmpw'
+   'body': 'cmpw'
+  'Cmpwi':
+   'prefix': 'cmpwi'
+   'body': 'cmpwi'
+  'Cntlz':
+   'prefix': 'cntlz'
+   'body': 'cntlz'
+  'Cntlzd':
+   'prefix': 'cntlzd'
+   'body': 'cntlzd'
+  'Cntlzw':
+   'prefix': 'cntlzw'
+   'body': 'cntlzw'
+  'Crand':
+   'prefix': 'crand'
+   'body': 'crand'
+  'Crandc':
+   'prefix': 'crandc'
+   'body': 'crandc'
+  'Crclr':
+   'prefix': 'crclr'
+   'body': 'crclr'
+  'Creqv':
+   'prefix': 'creqv'
+   'body': 'creqv'
+  'Crmove':
+   'prefix': 'crmove'
+   'body': 'crmove'
+  'Crnand':
+   'prefix': 'crnand'
+   'body': 'crnand'
+  'Crnor':
+   'prefix': 'crnor'
+   'body': 'crnor'
+  'Crnot':
+   'prefix': 'crnot'
+   'body': 'crnot'
+  'Cror':
+   'prefix': 'cror'
+   'body': 'cror'
+  'Crorc':
+   'prefix': 'crorc'
+   'body': 'crorc'
+  'Crset':
+   'prefix': 'crset'
+   'body': 'crset'
+  'Crxor':
+   'prefix': 'crxor'
+   'body': 'crxor'
+  'Dadd':
+   'prefix': 'dadd'
+   'body': 'dadd'
+  'Daddq':
+   'prefix': 'daddq'
+   'body': 'daddq'
+  'Db10cyc':
+   'prefix': 'db10cyc'
+   'body': 'db10cyc'
+  'Db12cyc':
+   'prefix': 'db12cyc'
+   'body': 'db12cyc'
+  'Db16cyc':
+   'prefix': 'db16cyc'
+   'body': 'db16cyc'
+  'Db8cyc':
+   'prefix': 'db8cyc'
+   'body': 'db8cyc'
+  'Dcba':
+   'prefix': 'dcba'
+   'body': 'dcba'
+  'Dcbae':
+   'prefix': 'dcbae'
+   'body': 'dcbae'
+  'Dcbf':
+   'prefix': 'dcbf'
+   'body': 'dcbf'
+  'Dcbfe':
+   'prefix': 'dcbfe'
+   'body': 'dcbfe'
+  'Dcbfl':
+   'prefix': 'dcbfl'
+   'body': 'dcbfl'
+  'Dcbi':
+   'prefix': 'dcbi'
+   'body': 'dcbi'
+  'Dcbie':
+   'prefix': 'dcbie'
+   'body': 'dcbie'
+  'Dcblc':
+   'prefix': 'dcblc'
+   'body': 'dcblc'
+  'Dcblce':
+   'prefix': 'dcblce'
+   'body': 'dcblce'
+  'Dcbst':
+   'prefix': 'dcbst'
+   'body': 'dcbst'
+  'Dcbste':
+   'prefix': 'dcbste'
+   'body': 'dcbste'
+  'Dcbt':
+   'prefix': 'dcbt'
+   'body': 'dcbt'
+  'Dcbte':
+   'prefix': 'dcbte'
+   'body': 'dcbte'
+  'Dcbtls':
+   'prefix': 'dcbtls'
+   'body': 'dcbtls'
+  'Dcbtlse':
+   'prefix': 'dcbtlse'
+   'body': 'dcbtlse'
+  'Dcbtst':
+   'prefix': 'dcbtst'
+   'body': 'dcbtst'
+  'Dcbtste':
+   'prefix': 'dcbtste'
+   'body': 'dcbtste'
+  'Dcbtstls':
+   'prefix': 'dcbtstls'
+   'body': 'dcbtstls'
+  'Dcbtstlse':
+   'prefix': 'dcbtstlse'
+   'body': 'dcbtstlse'
+  'Dcbz':
+   'prefix': 'dcbz'
+   'body': 'dcbz'
+  'Dcbze':
+   'prefix': 'dcbze'
+   'body': 'dcbze'
+  'Dcbzl':
+   'prefix': 'dcbzl'
+   'body': 'dcbzl'
+  'Dccci':
+   'prefix': 'dccci'
+   'body': 'dccci'
+  'Dcffix':
+   'prefix': 'dcffix'
+   'body': 'dcffix'
+  'Dcffixq':
+   'prefix': 'dcffixq'
+   'body': 'dcffixq'
+  'Dclst':
+   'prefix': 'dclst'
+   'body': 'dclst'
+  'Dclz':
+   'prefix': 'dclz'
+   'body': 'dclz'
+  'Dcmpo':
+   'prefix': 'dcmpo'
+   'body': 'dcmpo'
+  'Dcmpoq':
+   'prefix': 'dcmpoq'
+   'body': 'dcmpoq'
+  'Dcmpu':
+   'prefix': 'dcmpu'
+   'body': 'dcmpu'
+  'Dcmpuq':
+   'prefix': 'dcmpuq'
+   'body': 'dcmpuq'
+  'Dcread':
+   'prefix': 'dcread'
+   'body': 'dcread'
+  'Dcs':
+   'prefix': 'dcs'
+   'body': 'dcs'
+  'Dctdp':
+   'prefix': 'dctdp'
+   'body': 'dctdp'
+  'Dctfix':
+   'prefix': 'dctfix'
+   'body': 'dctfix'
+  'Dctfixq':
+   'prefix': 'dctfixq'
+   'body': 'dctfixq'
+  'Dctqpq':
+   'prefix': 'dctqpq'
+   'body': 'dctqpq'
+  'Ddedpd':
+   'prefix': 'ddedpd'
+   'body': 'ddedpd'
+  'Ddedpdq':
+   'prefix': 'ddedpdq'
+   'body': 'ddedpdq'
+  'Ddiv':
+   'prefix': 'ddiv'
+   'body': 'ddiv'
+  'Ddivq':
+   'prefix': 'ddivq'
+   'body': 'ddivq'
+  'Denbcd':
+   'prefix': 'denbcd'
+   'body': 'denbcd'
+  'Denbcdq':
+   'prefix': 'denbcdq'
+   'body': 'denbcdq'
+  'Diex':
+   'prefix': 'diex'
+   'body': 'diex'
+  'Diexq':
+   'prefix': 'diexq'
+   'body': 'diexq'
+  'Div':
+   'prefix': 'div'
+   'body': 'div'
+  'Divd':
+   'prefix': 'divd'
+   'body': 'divd'
+  'Divdo':
+   'prefix': 'divdo'
+   'body': 'divdo'
+  'Divdu':
+   'prefix': 'divdu'
+   'body': 'divdu'
+  'Divduo':
+   'prefix': 'divduo'
+   'body': 'divduo'
+  'Divo':
+   'prefix': 'divo'
+   'body': 'divo'
+  'Divs':
+   'prefix': 'divs'
+   'body': 'divs'
+  'Divso':
+   'prefix': 'divso'
+   'body': 'divso'
+  'Divw':
+   'prefix': 'divw'
+   'body': 'divw'
+  'Divwo':
+   'prefix': 'divwo'
+   'body': 'divwo'
+  'Divwu':
+   'prefix': 'divwu'
+   'body': 'divwu'
+  'Divwuo':
+   'prefix': 'divwuo'
+   'body': 'divwuo'
+  'Dlmzb':
+   'prefix': 'dlmzb'
+   'body': 'dlmzb'
+  'Dmul':
+   'prefix': 'dmul'
+   'body': 'dmul'
+  'Dmulq':
+   'prefix': 'dmulq'
+   'body': 'dmulq'
+  'Doz':
+   'prefix': 'doz'
+   'body': 'doz'
+  'Doze':
+   'prefix': 'doze'
+   'body': 'doze'
+  'Dozi':
+   'prefix': 'dozi'
+   'body': 'dozi'
+  'Dozo':
+   'prefix': 'dozo'
+   'body': 'dozo'
+  'Dqua':
+   'prefix': 'dqua'
+   'body': 'dqua'
+  'Dquai':
+   'prefix': 'dquai'
+   'body': 'dquai'
+  'Dquaiq':
+   'prefix': 'dquaiq'
+   'body': 'dquaiq'
+  'Dquaq':
+   'prefix': 'dquaq'
+   'body': 'dquaq'
+  'Drdpq':
+   'prefix': 'drdpq'
+   'body': 'drdpq'
+  'Drintn':
+   'prefix': 'drintn'
+   'body': 'drintn'
+  'Drintnq':
+   'prefix': 'drintnq'
+   'body': 'drintnq'
+  'Drintx':
+   'prefix': 'drintx'
+   'body': 'drintx'
+  'Drintxq':
+   'prefix': 'drintxq'
+   'body': 'drintxq'
+  'Drrnd':
+   'prefix': 'drrnd'
+   'body': 'drrnd'
+  'Drrndq':
+   'prefix': 'drrndq'
+   'body': 'drrndq'
+  'Drsp':
+   'prefix': 'drsp'
+   'body': 'drsp'
+  'Dscli':
+   'prefix': 'dscli'
+   'body': 'dscli'
+  'Dscliq':
+   'prefix': 'dscliq'
+   'body': 'dscliq'
+  'Dscri':
+   'prefix': 'dscri'
+   'body': 'dscri'
+  'Dscriq':
+   'prefix': 'dscriq'
+   'body': 'dscriq'
+  'Dss':
+   'prefix': 'dss'
+   'body': 'dss'
+  'Dssall':
+   'prefix': 'dssall'
+   'body': 'dssall'
+  'Dst':
+   'prefix': 'dst'
+   'body': 'dst'
+  'Dstst':
+   'prefix': 'dstst'
+   'body': 'dstst'
+  'Dststt':
+   'prefix': 'dststt'
+   'body': 'dststt'
+  'Dstt':
+   'prefix': 'dstt'
+   'body': 'dstt'
+  'Dsub':
+   'prefix': 'dsub'
+   'body': 'dsub'
+  'Dsubq':
+   'prefix': 'dsubq'
+   'body': 'dsubq'
+  'Dtstdc':
+   'prefix': 'dtstdc'
+   'body': 'dtstdc'
+  'Dtstdcq':
+   'prefix': 'dtstdcq'
+   'body': 'dtstdcq'
+  'Dtstdg':
+   'prefix': 'dtstdg'
+   'body': 'dtstdg'
+  'Dtstdgq':
+   'prefix': 'dtstdgq'
+   'body': 'dtstdgq'
+  'Dtstex':
+   'prefix': 'dtstex'
+   'body': 'dtstex'
+  'Dtstexq':
+   'prefix': 'dtstexq'
+   'body': 'dtstexq'
+  'Dtstsf':
+   'prefix': 'dtstsf'
+   'body': 'dtstsf'
+  'Dtstsfq':
+   'prefix': 'dtstsfq'
+   'body': 'dtstsfq'
+  'Dxex':
+   'prefix': 'dxex'
+   'body': 'dxex'
+  'Dxexq':
+   'prefix': 'dxexq'
+   'body': 'dxexq'
+  'Eciwx':
+   'prefix': 'eciwx'
+   'body': 'eciwx'
+  'Ecowx':
+   'prefix': 'ecowx'
+   'body': 'ecowx'
+  'Efdabs':
+   'prefix': 'efdabs'
+   'body': 'efdabs'
+  'Efdadd':
+   'prefix': 'efdadd'
+   'body': 'efdadd'
+  'Efdcfs':
+   'prefix': 'efdcfs'
+   'body': 'efdcfs'
+  'Efdcfsf':
+   'prefix': 'efdcfsf'
+   'body': 'efdcfsf'
+  'Efdcfsi':
+   'prefix': 'efdcfsi'
+   'body': 'efdcfsi'
+  'Efdcfsid':
+   'prefix': 'efdcfsid'
+   'body': 'efdcfsid'
+  'Efdcfuf':
+   'prefix': 'efdcfuf'
+   'body': 'efdcfuf'
+  'Efdcfui':
+   'prefix': 'efdcfui'
+   'body': 'efdcfui'
+  'Efdcfuid':
+   'prefix': 'efdcfuid'
+   'body': 'efdcfuid'
+  'Efdcmpeq':
+   'prefix': 'efdcmpeq'
+   'body': 'efdcmpeq'
+  'Efdcmpgt':
+   'prefix': 'efdcmpgt'
+   'body': 'efdcmpgt'
+  'Efdcmplt':
+   'prefix': 'efdcmplt'
+   'body': 'efdcmplt'
+  'Efdctsf':
+   'prefix': 'efdctsf'
+   'body': 'efdctsf'
+  'Efdctsi':
+   'prefix': 'efdctsi'
+   'body': 'efdctsi'
+  'Efdctsidz':
+   'prefix': 'efdctsidz'
+   'body': 'efdctsidz'
+  'Efdctsiz':
+   'prefix': 'efdctsiz'
+   'body': 'efdctsiz'
+  'Efdctuf':
+   'prefix': 'efdctuf'
+   'body': 'efdctuf'
+  'Efdctui':
+   'prefix': 'efdctui'
+   'body': 'efdctui'
+  'Efdctuidz':
+   'prefix': 'efdctuidz'
+   'body': 'efdctuidz'
+  'Efdctuiz':
+   'prefix': 'efdctuiz'
+   'body': 'efdctuiz'
+  'Efddiv':
+   'prefix': 'efddiv'
+   'body': 'efddiv'
+  'Efdmul':
+   'prefix': 'efdmul'
+   'body': 'efdmul'
+  'Efdnabs':
+   'prefix': 'efdnabs'
+   'body': 'efdnabs'
+  'Efdneg':
+   'prefix': 'efdneg'
+   'body': 'efdneg'
+  'Efdsub':
+   'prefix': 'efdsub'
+   'body': 'efdsub'
+  'Efdtsteq':
+   'prefix': 'efdtsteq'
+   'body': 'efdtsteq'
+  'Efdtstgt':
+   'prefix': 'efdtstgt'
+   'body': 'efdtstgt'
+  'Efdtstlt':
+   'prefix': 'efdtstlt'
+   'body': 'efdtstlt'
+  'Efsabs':
+   'prefix': 'efsabs'
+   'body': 'efsabs'
+  'Efsadd':
+   'prefix': 'efsadd'
+   'body': 'efsadd'
+  'Efscfd':
+   'prefix': 'efscfd'
+   'body': 'efscfd'
+  'Efscfsf':
+   'prefix': 'efscfsf'
+   'body': 'efscfsf'
+  'Efscfsi':
+   'prefix': 'efscfsi'
+   'body': 'efscfsi'
+  'Efscfuf':
+   'prefix': 'efscfuf'
+   'body': 'efscfuf'
+  'Efscfui':
+   'prefix': 'efscfui'
+   'body': 'efscfui'
+  'Efscmpeq':
+   'prefix': 'efscmpeq'
+   'body': 'efscmpeq'
+  'Efscmpgt':
+   'prefix': 'efscmpgt'
+   'body': 'efscmpgt'
+  'Efscmplt':
+   'prefix': 'efscmplt'
+   'body': 'efscmplt'
+  'Efsctsf':
+   'prefix': 'efsctsf'
+   'body': 'efsctsf'
+  'Efsctsi':
+   'prefix': 'efsctsi'
+   'body': 'efsctsi'
+  'Efsctsiz':
+   'prefix': 'efsctsiz'
+   'body': 'efsctsiz'
+  'Efsctuf':
+   'prefix': 'efsctuf'
+   'body': 'efsctuf'
+  'Efsctui':
+   'prefix': 'efsctui'
+   'body': 'efsctui'
+  'Efsctuiz':
+   'prefix': 'efsctuiz'
+   'body': 'efsctuiz'
+  'Efsdiv':
+   'prefix': 'efsdiv'
+   'body': 'efsdiv'
+  'Efsmul':
+   'prefix': 'efsmul'
+   'body': 'efsmul'
+  'Efsnabs':
+   'prefix': 'efsnabs'
+   'body': 'efsnabs'
+  'Efsneg':
+   'prefix': 'efsneg'
+   'body': 'efsneg'
+  'Efssub':
+   'prefix': 'efssub'
+   'body': 'efssub'
+  'Efststeq':
+   'prefix': 'efststeq'
+   'body': 'efststeq'
+  'Efststgt':
+   'prefix': 'efststgt'
+   'body': 'efststgt'
+  'Efststlt':
+   'prefix': 'efststlt'
+   'body': 'efststlt'
+  'Eieio':
+   'prefix': 'eieio'
+   'body': 'eieio'
+  'Eqv':
+   'prefix': 'eqv'
+   'body': 'eqv'
+  'Evabs':
+   'prefix': 'evabs'
+   'body': 'evabs'
+  'Evaddiw':
+   'prefix': 'evaddiw'
+   'body': 'evaddiw'
+  'Evaddsmiaaw':
+   'prefix': 'evaddsmiaaw'
+   'body': 'evaddsmiaaw'
+  'Evaddssiaaw':
+   'prefix': 'evaddssiaaw'
+   'body': 'evaddssiaaw'
+  'Evaddumiaaw':
+   'prefix': 'evaddumiaaw'
+   'body': 'evaddumiaaw'
+  'Evaddusiaaw':
+   'prefix': 'evaddusiaaw'
+   'body': 'evaddusiaaw'
+  'Evaddw':
+   'prefix': 'evaddw'
+   'body': 'evaddw'
+  'Evand':
+   'prefix': 'evand'
+   'body': 'evand'
+  'Evandc':
+   'prefix': 'evandc'
+   'body': 'evandc'
+  'Evcmpeq':
+   'prefix': 'evcmpeq'
+   'body': 'evcmpeq'
+  'Evcmpgts':
+   'prefix': 'evcmpgts'
+   'body': 'evcmpgts'
+  'Evcmpgtu':
+   'prefix': 'evcmpgtu'
+   'body': 'evcmpgtu'
+  'Evcmplts':
+   'prefix': 'evcmplts'
+   'body': 'evcmplts'
+  'Evcmpltu':
+   'prefix': 'evcmpltu'
+   'body': 'evcmpltu'
+  'Evcntlsw':
+   'prefix': 'evcntlsw'
+   'body': 'evcntlsw'
+  'Evcntlzw':
+   'prefix': 'evcntlzw'
+   'body': 'evcntlzw'
+  'Evdivws':
+   'prefix': 'evdivws'
+   'body': 'evdivws'
+  'Evdivwu':
+   'prefix': 'evdivwu'
+   'body': 'evdivwu'
+  'Eveqv':
+   'prefix': 'eveqv'
+   'body': 'eveqv'
+  'Evextsb':
+   'prefix': 'evextsb'
+   'body': 'evextsb'
+  'Evextsh':
+   'prefix': 'evextsh'
+   'body': 'evextsh'
+  'Evfsabs':
+   'prefix': 'evfsabs'
+   'body': 'evfsabs'
+  'Evfsadd':
+   'prefix': 'evfsadd'
+   'body': 'evfsadd'
+  'Evfscfsf':
+   'prefix': 'evfscfsf'
+   'body': 'evfscfsf'
+  'Evfscfsi':
+   'prefix': 'evfscfsi'
+   'body': 'evfscfsi'
+  'Evfscfuf':
+   'prefix': 'evfscfuf'
+   'body': 'evfscfuf'
+  'Evfscfui':
+   'prefix': 'evfscfui'
+   'body': 'evfscfui'
+  'Evfscmpeq':
+   'prefix': 'evfscmpeq'
+   'body': 'evfscmpeq'
+  'Evfscmpgt':
+   'prefix': 'evfscmpgt'
+   'body': 'evfscmpgt'
+  'Evfscmplt':
+   'prefix': 'evfscmplt'
+   'body': 'evfscmplt'
+  'Evfsctsf':
+   'prefix': 'evfsctsf'
+   'body': 'evfsctsf'
+  'Evfsctsi':
+   'prefix': 'evfsctsi'
+   'body': 'evfsctsi'
+  'Evfsctsiz':
+   'prefix': 'evfsctsiz'
+   'body': 'evfsctsiz'
+  'Evfsctuf':
+   'prefix': 'evfsctuf'
+   'body': 'evfsctuf'
+  'Evfsctui':
+   'prefix': 'evfsctui'
+   'body': 'evfsctui'
+  'Evfsctuiz':
+   'prefix': 'evfsctuiz'
+   'body': 'evfsctuiz'
+  'Evfsdiv':
+   'prefix': 'evfsdiv'
+   'body': 'evfsdiv'
+  'Evfsmul':
+   'prefix': 'evfsmul'
+   'body': 'evfsmul'
+  'Evfsnabs':
+   'prefix': 'evfsnabs'
+   'body': 'evfsnabs'
+  'Evfsneg':
+   'prefix': 'evfsneg'
+   'body': 'evfsneg'
+  'Evfssub':
+   'prefix': 'evfssub'
+   'body': 'evfssub'
+  'Evfststeq':
+   'prefix': 'evfststeq'
+   'body': 'evfststeq'
+  'Evfststgt':
+   'prefix': 'evfststgt'
+   'body': 'evfststgt'
+  'Evfststlt':
+   'prefix': 'evfststlt'
+   'body': 'evfststlt'
+  'Evldd':
+   'prefix': 'evldd'
+   'body': 'evldd'
+  'Evlddx':
+   'prefix': 'evlddx'
+   'body': 'evlddx'
+  'Evldh':
+   'prefix': 'evldh'
+   'body': 'evldh'
+  'Evldhx':
+   'prefix': 'evldhx'
+   'body': 'evldhx'
+  'Evldw':
+   'prefix': 'evldw'
+   'body': 'evldw'
+  'Evldwx':
+   'prefix': 'evldwx'
+   'body': 'evldwx'
+  'Evlhhesplat':
+   'prefix': 'evlhhesplat'
+   'body': 'evlhhesplat'
+  'Evlhhesplatx':
+   'prefix': 'evlhhesplatx'
+   'body': 'evlhhesplatx'
+  'Evlhhossplat':
+   'prefix': 'evlhhossplat'
+   'body': 'evlhhossplat'
+  'Evlhhossplatx':
+   'prefix': 'evlhhossplatx'
+   'body': 'evlhhossplatx'
+  'Evlhhousplat':
+   'prefix': 'evlhhousplat'
+   'body': 'evlhhousplat'
+  'Evlhhousplatx':
+   'prefix': 'evlhhousplatx'
+   'body': 'evlhhousplatx'
+  'Evlwhe':
+   'prefix': 'evlwhe'
+   'body': 'evlwhe'
+  'Evlwhex':
+   'prefix': 'evlwhex'
+   'body': 'evlwhex'
+  'Evlwhos':
+   'prefix': 'evlwhos'
+   'body': 'evlwhos'
+  'Evlwhosx':
+   'prefix': 'evlwhosx'
+   'body': 'evlwhosx'
+  'Evlwhou':
+   'prefix': 'evlwhou'
+   'body': 'evlwhou'
+  'Evlwhoux':
+   'prefix': 'evlwhoux'
+   'body': 'evlwhoux'
+  'Evlwhsplat':
+   'prefix': 'evlwhsplat'
+   'body': 'evlwhsplat'
+  'Evlwhsplatx':
+   'prefix': 'evlwhsplatx'
+   'body': 'evlwhsplatx'
+  'Evlwwsplat':
+   'prefix': 'evlwwsplat'
+   'body': 'evlwwsplat'
+  'Evlwwsplatx':
+   'prefix': 'evlwwsplatx'
+   'body': 'evlwwsplatx'
+  'Evmergehi':
+   'prefix': 'evmergehi'
+   'body': 'evmergehi'
+  'Evmergehilo':
+   'prefix': 'evmergehilo'
+   'body': 'evmergehilo'
+  'Evmergelo':
+   'prefix': 'evmergelo'
+   'body': 'evmergelo'
+  'Evmergelohi':
+   'prefix': 'evmergelohi'
+   'body': 'evmergelohi'
+  'Evmhegsmfaa':
+   'prefix': 'evmhegsmfaa'
+   'body': 'evmhegsmfaa'
+  'Evmhegsmfan':
+   'prefix': 'evmhegsmfan'
+   'body': 'evmhegsmfan'
+  'Evmhegsmiaa':
+   'prefix': 'evmhegsmiaa'
+   'body': 'evmhegsmiaa'
+  'Evmhegsmian':
+   'prefix': 'evmhegsmian'
+   'body': 'evmhegsmian'
+  'Evmhegumiaa':
+   'prefix': 'evmhegumiaa'
+   'body': 'evmhegumiaa'
+  'Evmhegumian':
+   'prefix': 'evmhegumian'
+   'body': 'evmhegumian'
+  'Evmhesmf':
+   'prefix': 'evmhesmf'
+   'body': 'evmhesmf'
+  'Evmhesmfa':
+   'prefix': 'evmhesmfa'
+   'body': 'evmhesmfa'
+  'Evmhesmfaaw':
+   'prefix': 'evmhesmfaaw'
+   'body': 'evmhesmfaaw'
+  'Evmhesmfanw':
+   'prefix': 'evmhesmfanw'
+   'body': 'evmhesmfanw'
+  'Evmhesmi':
+   'prefix': 'evmhesmi'
+   'body': 'evmhesmi'
+  'Evmhesmia':
+   'prefix': 'evmhesmia'
+   'body': 'evmhesmia'
+  'Evmhesmiaaw':
+   'prefix': 'evmhesmiaaw'
+   'body': 'evmhesmiaaw'
+  'Evmhesmianw':
+   'prefix': 'evmhesmianw'
+   'body': 'evmhesmianw'
+  'Evmhessf':
+   'prefix': 'evmhessf'
+   'body': 'evmhessf'
+  'Evmhessfa':
+   'prefix': 'evmhessfa'
+   'body': 'evmhessfa'
+  'Evmhessfaaw':
+   'prefix': 'evmhessfaaw'
+   'body': 'evmhessfaaw'
+  'Evmhessfanw':
+   'prefix': 'evmhessfanw'
+   'body': 'evmhessfanw'
+  'Evmhessiaaw':
+   'prefix': 'evmhessiaaw'
+   'body': 'evmhessiaaw'
+  'Evmhessianw':
+   'prefix': 'evmhessianw'
+   'body': 'evmhessianw'
+  'Evmheumi':
+   'prefix': 'evmheumi'
+   'body': 'evmheumi'
+  'Evmheumia':
+   'prefix': 'evmheumia'
+   'body': 'evmheumia'
+  'Evmheumiaaw':
+   'prefix': 'evmheumiaaw'
+   'body': 'evmheumiaaw'
+  'Evmheumianw':
+   'prefix': 'evmheumianw'
+   'body': 'evmheumianw'
+  'Evmheusiaaw':
+   'prefix': 'evmheusiaaw'
+   'body': 'evmheusiaaw'
+  'Evmheusianw':
+   'prefix': 'evmheusianw'
+   'body': 'evmheusianw'
+  'Evmhogsmfaa':
+   'prefix': 'evmhogsmfaa'
+   'body': 'evmhogsmfaa'
+  'Evmhogsmfan':
+   'prefix': 'evmhogsmfan'
+   'body': 'evmhogsmfan'
+  'Evmhogsmiaa':
+   'prefix': 'evmhogsmiaa'
+   'body': 'evmhogsmiaa'
+  'Evmhogsmian':
+   'prefix': 'evmhogsmian'
+   'body': 'evmhogsmian'
+  'Evmhogumiaa':
+   'prefix': 'evmhogumiaa'
+   'body': 'evmhogumiaa'
+  'Evmhogumian':
+   'prefix': 'evmhogumian'
+   'body': 'evmhogumian'
+  'Evmhosmf':
+   'prefix': 'evmhosmf'
+   'body': 'evmhosmf'
+  'Evmhosmfa':
+   'prefix': 'evmhosmfa'
+   'body': 'evmhosmfa'
+  'Evmhosmfaaw':
+   'prefix': 'evmhosmfaaw'
+   'body': 'evmhosmfaaw'
+  'Evmhosmfanw':
+   'prefix': 'evmhosmfanw'
+   'body': 'evmhosmfanw'
+  'Evmhosmi':
+   'prefix': 'evmhosmi'
+   'body': 'evmhosmi'
+  'Evmhosmia':
+   'prefix': 'evmhosmia'
+   'body': 'evmhosmia'
+  'Evmhosmiaaw':
+   'prefix': 'evmhosmiaaw'
+   'body': 'evmhosmiaaw'
+  'Evmhosmianw':
+   'prefix': 'evmhosmianw'
+   'body': 'evmhosmianw'
+  'Evmhossf':
+   'prefix': 'evmhossf'
+   'body': 'evmhossf'
+  'Evmhossfa':
+   'prefix': 'evmhossfa'
+   'body': 'evmhossfa'
+  'Evmhossfaaw':
+   'prefix': 'evmhossfaaw'
+   'body': 'evmhossfaaw'
+  'Evmhossfanw':
+   'prefix': 'evmhossfanw'
+   'body': 'evmhossfanw'
+  'Evmhossiaaw':
+   'prefix': 'evmhossiaaw'
+   'body': 'evmhossiaaw'
+  'Evmhossianw':
+   'prefix': 'evmhossianw'
+   'body': 'evmhossianw'
+  'Evmhoumi':
+   'prefix': 'evmhoumi'
+   'body': 'evmhoumi'
+  'Evmhoumia':
+   'prefix': 'evmhoumia'
+   'body': 'evmhoumia'
+  'Evmhoumiaaw':
+   'prefix': 'evmhoumiaaw'
+   'body': 'evmhoumiaaw'
+  'Evmhoumianw':
+   'prefix': 'evmhoumianw'
+   'body': 'evmhoumianw'
+  'Evmhousiaaw':
+   'prefix': 'evmhousiaaw'
+   'body': 'evmhousiaaw'
+  'Evmhousianw':
+   'prefix': 'evmhousianw'
+   'body': 'evmhousianw'
+  'Evmr':
+   'prefix': 'evmr'
+   'body': 'evmr'
+  'Evmra':
+   'prefix': 'evmra'
+   'body': 'evmra'
+  'Evmwhsmf':
+   'prefix': 'evmwhsmf'
+   'body': 'evmwhsmf'
+  'Evmwhsmfa':
+   'prefix': 'evmwhsmfa'
+   'body': 'evmwhsmfa'
+  'Evmwhsmi':
+   'prefix': 'evmwhsmi'
+   'body': 'evmwhsmi'
+  'Evmwhsmia':
+   'prefix': 'evmwhsmia'
+   'body': 'evmwhsmia'
+  'Evmwhssf':
+   'prefix': 'evmwhssf'
+   'body': 'evmwhssf'
+  'Evmwhssfa':
+   'prefix': 'evmwhssfa'
+   'body': 'evmwhssfa'
+  'Evmwhumi':
+   'prefix': 'evmwhumi'
+   'body': 'evmwhumi'
+  'Evmwhumia':
+   'prefix': 'evmwhumia'
+   'body': 'evmwhumia'
+  'Evmwlsmiaaw':
+   'prefix': 'evmwlsmiaaw'
+   'body': 'evmwlsmiaaw'
+  'Evmwlsmianw':
+   'prefix': 'evmwlsmianw'
+   'body': 'evmwlsmianw'
+  'Evmwlssiaaw':
+   'prefix': 'evmwlssiaaw'
+   'body': 'evmwlssiaaw'
+  'Evmwlssianw':
+   'prefix': 'evmwlssianw'
+   'body': 'evmwlssianw'
+  'Evmwlumi':
+   'prefix': 'evmwlumi'
+   'body': 'evmwlumi'
+  'Evmwlumia':
+   'prefix': 'evmwlumia'
+   'body': 'evmwlumia'
+  'Evmwlumiaaw':
+   'prefix': 'evmwlumiaaw'
+   'body': 'evmwlumiaaw'
+  'Evmwlumianw':
+   'prefix': 'evmwlumianw'
+   'body': 'evmwlumianw'
+  'Evmwlusiaaw':
+   'prefix': 'evmwlusiaaw'
+   'body': 'evmwlusiaaw'
+  'Evmwlusianw':
+   'prefix': 'evmwlusianw'
+   'body': 'evmwlusianw'
+  'Evmwsmf':
+   'prefix': 'evmwsmf'
+   'body': 'evmwsmf'
+  'Evmwsmfa':
+   'prefix': 'evmwsmfa'
+   'body': 'evmwsmfa'
+  'Evmwsmfaa':
+   'prefix': 'evmwsmfaa'
+   'body': 'evmwsmfaa'
+  'Evmwsmfan':
+   'prefix': 'evmwsmfan'
+   'body': 'evmwsmfan'
+  'Evmwsmi':
+   'prefix': 'evmwsmi'
+   'body': 'evmwsmi'
+  'Evmwsmia':
+   'prefix': 'evmwsmia'
+   'body': 'evmwsmia'
+  'Evmwsmiaa':
+   'prefix': 'evmwsmiaa'
+   'body': 'evmwsmiaa'
+  'Evmwsmian':
+   'prefix': 'evmwsmian'
+   'body': 'evmwsmian'
+  'Evmwssf':
+   'prefix': 'evmwssf'
+   'body': 'evmwssf'
+  'Evmwssfa':
+   'prefix': 'evmwssfa'
+   'body': 'evmwssfa'
+  'Evmwssfaa':
+   'prefix': 'evmwssfaa'
+   'body': 'evmwssfaa'
+  'Evmwssfan':
+   'prefix': 'evmwssfan'
+   'body': 'evmwssfan'
+  'Evmwumi':
+   'prefix': 'evmwumi'
+   'body': 'evmwumi'
+  'Evmwumia':
+   'prefix': 'evmwumia'
+   'body': 'evmwumia'
+  'Evmwumiaa':
+   'prefix': 'evmwumiaa'
+   'body': 'evmwumiaa'
+  'Evmwumian':
+   'prefix': 'evmwumian'
+   'body': 'evmwumian'
+  'Evnand':
+   'prefix': 'evnand'
+   'body': 'evnand'
+  'Evneg':
+   'prefix': 'evneg'
+   'body': 'evneg'
+  'Evnor':
+   'prefix': 'evnor'
+   'body': 'evnor'
+  'Evnot':
+   'prefix': 'evnot'
+   'body': 'evnot'
+  'Evor':
+   'prefix': 'evor'
+   'body': 'evor'
+  'Evorc':
+   'prefix': 'evorc'
+   'body': 'evorc'
+  'Evrlw':
+   'prefix': 'evrlw'
+   'body': 'evrlw'
+  'Evrlwi':
+   'prefix': 'evrlwi'
+   'body': 'evrlwi'
+  'Evrndw':
+   'prefix': 'evrndw'
+   'body': 'evrndw'
+  'Evsel':
+   'prefix': 'evsel'
+   'body': 'evsel'
+  'Evslw':
+   'prefix': 'evslw'
+   'body': 'evslw'
+  'Evslwi':
+   'prefix': 'evslwi'
+   'body': 'evslwi'
+  'Evsplatfi':
+   'prefix': 'evsplatfi'
+   'body': 'evsplatfi'
+  'Evsplati':
+   'prefix': 'evsplati'
+   'body': 'evsplati'
+  'Evsrwis':
+   'prefix': 'evsrwis'
+   'body': 'evsrwis'
+  'Evsrwiu':
+   'prefix': 'evsrwiu'
+   'body': 'evsrwiu'
+  'Evsrws':
+   'prefix': 'evsrws'
+   'body': 'evsrws'
+  'Evsrwu':
+   'prefix': 'evsrwu'
+   'body': 'evsrwu'
+  'Evstdd':
+   'prefix': 'evstdd'
+   'body': 'evstdd'
+  'Evstddx':
+   'prefix': 'evstddx'
+   'body': 'evstddx'
+  'Evstdh':
+   'prefix': 'evstdh'
+   'body': 'evstdh'
+  'Evstdhx':
+   'prefix': 'evstdhx'
+   'body': 'evstdhx'
+  'Evstdw':
+   'prefix': 'evstdw'
+   'body': 'evstdw'
+  'Evstdwx':
+   'prefix': 'evstdwx'
+   'body': 'evstdwx'
+  'Evstwhe':
+   'prefix': 'evstwhe'
+   'body': 'evstwhe'
+  'Evstwhex':
+   'prefix': 'evstwhex'
+   'body': 'evstwhex'
+  'Evstwho':
+   'prefix': 'evstwho'
+   'body': 'evstwho'
+  'Evstwhox':
+   'prefix': 'evstwhox'
+   'body': 'evstwhox'
+  'Evstwwe':
+   'prefix': 'evstwwe'
+   'body': 'evstwwe'
+  'Evstwwex':
+   'prefix': 'evstwwex'
+   'body': 'evstwwex'
+  'Evstwwo':
+   'prefix': 'evstwwo'
+   'body': 'evstwwo'
+  'Evstwwox':
+   'prefix': 'evstwwox'
+   'body': 'evstwwox'
+  'Evsubfsmiaaw':
+   'prefix': 'evsubfsmiaaw'
+   'body': 'evsubfsmiaaw'
+  'Evsubfssiaaw':
+   'prefix': 'evsubfssiaaw'
+   'body': 'evsubfssiaaw'
+  'Evsubfumiaaw':
+   'prefix': 'evsubfumiaaw'
+   'body': 'evsubfumiaaw'
+  'Evsubfusiaaw':
+   'prefix': 'evsubfusiaaw'
+   'body': 'evsubfusiaaw'
+  'Evsubfw':
+   'prefix': 'evsubfw'
+   'body': 'evsubfw'
+  'Evsubifw':
+   'prefix': 'evsubifw'
+   'body': 'evsubifw'
+  'Evsubiw':
+   'prefix': 'evsubiw'
+   'body': 'evsubiw'
+  'Evsubw':
+   'prefix': 'evsubw'
+   'body': 'evsubw'
+  'Evxor':
+   'prefix': 'evxor'
+   'body': 'evxor'
+  'Extldi':
+   'prefix': 'extldi'
+   'body': 'extldi'
+  'Extlwi':
+   'prefix': 'extlwi'
+   'body': 'extlwi'
+  'Extrdi':
+   'prefix': 'extrdi'
+   'body': 'extrdi'
+  'Extrwi':
+   'prefix': 'extrwi'
+   'body': 'extrwi'
+  'Exts':
+   'prefix': 'exts'
+   'body': 'exts'
+  'Extsb':
+   'prefix': 'extsb'
+   'body': 'extsb'
+  'Extsh':
+   'prefix': 'extsh'
+   'body': 'extsh'
+  'Extsw':
+   'prefix': 'extsw'
+   'body': 'extsw'
+  'Fa':
+   'prefix': 'fa'
+   'body': 'fa'
+  'Fabs':
+   'prefix': 'fabs'
+   'body': 'fabs'
+  'Fadd':
+   'prefix': 'fadd'
+   'body': 'fadd'
+  'Fadds':
+   'prefix': 'fadds'
+   'body': 'fadds'
+  'Fcfid':
+   'prefix': 'fcfid'
+   'body': 'fcfid'
+  'Fcir':
+   'prefix': 'fcir'
+   'body': 'fcir'
+  'Fcirz':
+   'prefix': 'fcirz'
+   'body': 'fcirz'
+  'Fcmpo':
+   'prefix': 'fcmpo'
+   'body': 'fcmpo'
+  'Fcmpu':
+   'prefix': 'fcmpu'
+   'body': 'fcmpu'
+  'Fcpsgn':
+   'prefix': 'fcpsgn'
+   'body': 'fcpsgn'
+  'Fctid':
+   'prefix': 'fctid'
+   'body': 'fctid'
+  'Fctidz':
+   'prefix': 'fctidz'
+   'body': 'fctidz'
+  'Fctiw':
+   'prefix': 'fctiw'
+   'body': 'fctiw'
+  'Fctiwz':
+   'prefix': 'fctiwz'
+   'body': 'fctiwz'
+  'Fd':
+   'prefix': 'fd'
+   'body': 'fd'
+  'Fdiv':
+   'prefix': 'fdiv'
+   'body': 'fdiv'
+  'Fdivs':
+   'prefix': 'fdivs'
+   'body': 'fdivs'
+  'Fm':
+   'prefix': 'fm'
+   'body': 'fm'
+  'Fma':
+   'prefix': 'fma'
+   'body': 'fma'
+  'Fmadd':
+   'prefix': 'fmadd'
+   'body': 'fmadd'
+  'Fmadds':
+   'prefix': 'fmadds'
+   'body': 'fmadds'
+  'Fmr':
+   'prefix': 'fmr'
+   'body': 'fmr'
+  'Fms':
+   'prefix': 'fms'
+   'body': 'fms'
+  'Fmsub':
+   'prefix': 'fmsub'
+   'body': 'fmsub'
+  'Fmsubs':
+   'prefix': 'fmsubs'
+   'body': 'fmsubs'
+  'Fmul':
+   'prefix': 'fmul'
+   'body': 'fmul'
+  'Fmuls':
+   'prefix': 'fmuls'
+   'body': 'fmuls'
+  'Fnabs':
+   'prefix': 'fnabs'
+   'body': 'fnabs'
+  'Fneg':
+   'prefix': 'fneg'
+   'body': 'fneg'
+  'Fnma':
+   'prefix': 'fnma'
+   'body': 'fnma'
+  'Fnmadd':
+   'prefix': 'fnmadd'
+   'body': 'fnmadd'
+  'Fnmadds':
+   'prefix': 'fnmadds'
+   'body': 'fnmadds'
+  'Fnms':
+   'prefix': 'fnms'
+   'body': 'fnms'
+  'Fnmsub':
+   'prefix': 'fnmsub'
+   'body': 'fnmsub'
+  'Fnmsubs':
+   'prefix': 'fnmsubs'
+   'body': 'fnmsubs'
+  'Fre':
+   'prefix': 'fre'
+   'body': 'fre'
+  'Fres':
+   'prefix': 'fres'
+   'body': 'fres'
+  'Frim':
+   'prefix': 'frim'
+   'body': 'frim'
+  'Frin':
+   'prefix': 'frin'
+   'body': 'frin'
+  'Frip':
+   'prefix': 'frip'
+   'body': 'frip'
+  'Friz':
+   'prefix': 'friz'
+   'body': 'friz'
+  'Frsp':
+   'prefix': 'frsp'
+   'body': 'frsp'
+  'Frsqrte':
+   'prefix': 'frsqrte'
+   'body': 'frsqrte'
+  'Frsqrtes':
+   'prefix': 'frsqrtes'
+   'body': 'frsqrtes'
+  'Fs':
+   'prefix': 'fs'
+   'body': 'fs'
+  'Fsel':
+   'prefix': 'fsel'
+   'body': 'fsel'
+  'Fsqrt':
+   'prefix': 'fsqrt'
+   'body': 'fsqrt'
+  'Fsqrts':
+   'prefix': 'fsqrts'
+   'body': 'fsqrts'
+  'Fsub':
+   'prefix': 'fsub'
+   'body': 'fsub'
+  'Fsubs':
+   'prefix': 'fsubs'
+   'body': 'fsubs'
+  'Hrfid':
+   'prefix': 'hrfid'
+   'body': 'hrfid'
+  'Icbi':
+   'prefix': 'icbi'
+   'body': 'icbi'
+  'Icbie':
+   'prefix': 'icbie'
+   'body': 'icbie'
+  'Icblc':
+   'prefix': 'icblc'
+   'body': 'icblc'
+  'Icblce':
+   'prefix': 'icblce'
+   'body': 'icblce'
+  'Icbt':
+   'prefix': 'icbt'
+   'body': 'icbt'
+  'Icbte':
+   'prefix': 'icbte'
+   'body': 'icbte'
+  'Icbtls':
+   'prefix': 'icbtls'
+   'body': 'icbtls'
+  'Icbtlse':
+   'prefix': 'icbtlse'
+   'body': 'icbtlse'
+  'Iccci':
+   'prefix': 'iccci'
+   'body': 'iccci'
+  'Icread':
+   'prefix': 'icread'
+   'body': 'icread'
+  'Ics':
+   'prefix': 'ics'
+   'body': 'ics'
+  'Inslwi':
+   'prefix': 'inslwi'
+   'body': 'inslwi'
+  'Insrdi':
+   'prefix': 'insrdi'
+   'body': 'insrdi'
+  'Insrwi':
+   'prefix': 'insrwi'
+   'body': 'insrwi'
+  'Isel':
+   'prefix': 'isel'
+   'body': 'isel'
+  'Iseleq':
+   'prefix': 'iseleq'
+   'body': 'iseleq'
+  'Iselgt':
+   'prefix': 'iselgt'
+   'body': 'iselgt'
+  'Isellt':
+   'prefix': 'isellt'
+   'body': 'isellt'
+  'Isync':
+   'prefix': 'isync'
+   'body': 'isync'
+  'L':
+   'prefix': 'l'
+   'body': 'l'
+  'La':
+   'prefix': 'la'
+   'body': 'la'
+  'Lbrx':
+   'prefix': 'lbrx'
+   'body': 'lbrx'
+  'Lbz':
+   'prefix': 'lbz'
+   'body': 'lbz'
+  'Lbzcix':
+   'prefix': 'lbzcix'
+   'body': 'lbzcix'
+  'Lbze':
+   'prefix': 'lbze'
+   'body': 'lbze'
+  'Lbzu':
+   'prefix': 'lbzu'
+   'body': 'lbzu'
+  'Lbzue':
+   'prefix': 'lbzue'
+   'body': 'lbzue'
+  'Lbzux':
+   'prefix': 'lbzux'
+   'body': 'lbzux'
+  'Lbzuxe':
+   'prefix': 'lbzuxe'
+   'body': 'lbzuxe'
+  'Lbzx':
+   'prefix': 'lbzx'
+   'body': 'lbzx'
+  'Lbzxe':
+   'prefix': 'lbzxe'
+   'body': 'lbzxe'
+  'Ld':
+   'prefix': 'ld'
+   'body': 'ld'
+  'Ldarx':
+   'prefix': 'ldarx'
+   'body': 'ldarx'
+  'Ldbrx':
+   'prefix': 'ldbrx'
+   'body': 'ldbrx'
+  'Ldcix':
+   'prefix': 'ldcix'
+   'body': 'ldcix'
+  'Lde':
+   'prefix': 'lde'
+   'body': 'lde'
+  'Ldu':
+   'prefix': 'ldu'
+   'body': 'ldu'
+  'Ldue':
+   'prefix': 'ldue'
+   'body': 'ldue'
+  'Ldux':
+   'prefix': 'ldux'
+   'body': 'ldux'
+  'Lduxe':
+   'prefix': 'lduxe'
+   'body': 'lduxe'
+  'Ldx':
+   'prefix': 'ldx'
+   'body': 'ldx'
+  'Ldxe':
+   'prefix': 'ldxe'
+   'body': 'ldxe'
+  'Lfd':
+   'prefix': 'lfd'
+   'body': 'lfd'
+  'Lfde':
+   'prefix': 'lfde'
+   'body': 'lfde'
+  'Lfdp':
+   'prefix': 'lfdp'
+   'body': 'lfdp'
+  'Lfdpx':
+   'prefix': 'lfdpx'
+   'body': 'lfdpx'
+  'Lfdu':
+   'prefix': 'lfdu'
+   'body': 'lfdu'
+  'Lfdue':
+   'prefix': 'lfdue'
+   'body': 'lfdue'
+  'Lfdux':
+   'prefix': 'lfdux'
+   'body': 'lfdux'
+  'Lfduxe':
+   'prefix': 'lfduxe'
+   'body': 'lfduxe'
+  'Lfdx':
+   'prefix': 'lfdx'
+   'body': 'lfdx'
+  'Lfdxe':
+   'prefix': 'lfdxe'
+   'body': 'lfdxe'
+  'Lfiwax':
+   'prefix': 'lfiwax'
+   'body': 'lfiwax'
+  'Lfq':
+   'prefix': 'lfq'
+   'body': 'lfq'
+  'Lfqu':
+   'prefix': 'lfqu'
+   'body': 'lfqu'
+  'Lfqux':
+   'prefix': 'lfqux'
+   'body': 'lfqux'
+  'Lfqx':
+   'prefix': 'lfqx'
+   'body': 'lfqx'
+  'Lfs':
+   'prefix': 'lfs'
+   'body': 'lfs'
+  'Lfse':
+   'prefix': 'lfse'
+   'body': 'lfse'
+  'Lfsu':
+   'prefix': 'lfsu'
+   'body': 'lfsu'
+  'Lfsue':
+   'prefix': 'lfsue'
+   'body': 'lfsue'
+  'Lfsux':
+   'prefix': 'lfsux'
+   'body': 'lfsux'
+  'Lfsuxe':
+   'prefix': 'lfsuxe'
+   'body': 'lfsuxe'
+  'Lfsx':
+   'prefix': 'lfsx'
+   'body': 'lfsx'
+  'Lfsxe':
+   'prefix': 'lfsxe'
+   'body': 'lfsxe'
+  'Lha':
+   'prefix': 'lha'
+   'body': 'lha'
+  'Lhae':
+   'prefix': 'lhae'
+   'body': 'lhae'
+  'Lhau':
+   'prefix': 'lhau'
+   'body': 'lhau'
+  'Lhaue':
+   'prefix': 'lhaue'
+   'body': 'lhaue'
+  'Lhaux':
+   'prefix': 'lhaux'
+   'body': 'lhaux'
+  'Lhauxe':
+   'prefix': 'lhauxe'
+   'body': 'lhauxe'
+  'Lhax':
+   'prefix': 'lhax'
+   'body': 'lhax'
+  'Lhaxe':
+   'prefix': 'lhaxe'
+   'body': 'lhaxe'
+  'Lhbrx':
+   'prefix': 'lhbrx'
+   'body': 'lhbrx'
+  'Lhbrxe':
+   'prefix': 'lhbrxe'
+   'body': 'lhbrxe'
+  'Lhz':
+   'prefix': 'lhz'
+   'body': 'lhz'
+  'Lhzcix':
+   'prefix': 'lhzcix'
+   'body': 'lhzcix'
+  'Lhze':
+   'prefix': 'lhze'
+   'body': 'lhze'
+  'Lhzu':
+   'prefix': 'lhzu'
+   'body': 'lhzu'
+  'Lhzue':
+   'prefix': 'lhzue'
+   'body': 'lhzue'
+  'Lhzux':
+   'prefix': 'lhzux'
+   'body': 'lhzux'
+  'Lhzuxe':
+   'prefix': 'lhzuxe'
+   'body': 'lhzuxe'
+  'Lhzx':
+   'prefix': 'lhzx'
+   'body': 'lhzx'
+  'Lhzxe':
+   'prefix': 'lhzxe'
+   'body': 'lhzxe'
+  'Li':
+   'prefix': 'li'
+   'body': 'li'
+  'Lil':
+   'prefix': 'lil'
+   'body': 'lil'
+  'Lis':
+   'prefix': 'lis'
+   'body': 'lis'
+  'Liu':
+   'prefix': 'liu'
+   'body': 'liu'
+  'Lm':
+   'prefix': 'lm'
+   'body': 'lm'
+  'Lmw':
+   'prefix': 'lmw'
+   'body': 'lmw'
+  'Lq':
+   'prefix': 'lq'
+   'body': 'lq'
+  'Lscbx':
+   'prefix': 'lscbx'
+   'body': 'lscbx'
+  'Lsi':
+   'prefix': 'lsi'
+   'body': 'lsi'
+  'Lswi':
+   'prefix': 'lswi'
+   'body': 'lswi'
+  'Lswx':
+   'prefix': 'lswx'
+   'body': 'lswx'
+  'Lsx':
+   'prefix': 'lsx'
+   'body': 'lsx'
+  'Lu':
+   'prefix': 'lu'
+   'body': 'lu'
+  'Lux':
+   'prefix': 'lux'
+   'body': 'lux'
+  'Lvebx':
+   'prefix': 'lvebx'
+   'body': 'lvebx'
+  'Lvehx':
+   'prefix': 'lvehx'
+   'body': 'lvehx'
+  'Lvewx':
+   'prefix': 'lvewx'
+   'body': 'lvewx'
+  'Lvlx':
+   'prefix': 'lvlx'
+   'body': 'lvlx'
+  'Lvlxl':
+   'prefix': 'lvlxl'
+   'body': 'lvlxl'
+  'Lvrx':
+   'prefix': 'lvrx'
+   'body': 'lvrx'
+  'Lvrxl':
+   'prefix': 'lvrxl'
+   'body': 'lvrxl'
+  'Lvsl':
+   'prefix': 'lvsl'
+   'body': 'lvsl'
+  'Lvsr':
+   'prefix': 'lvsr'
+   'body': 'lvsr'
+  'Lvx':
+   'prefix': 'lvx'
+   'body': 'lvx'
+  'Lvxl':
+   'prefix': 'lvxl'
+   'body': 'lvxl'
+  'Lwa':
+   'prefix': 'lwa'
+   'body': 'lwa'
+  'Lwarx':
+   'prefix': 'lwarx'
+   'body': 'lwarx'
+  'Lwarxe':
+   'prefix': 'lwarxe'
+   'body': 'lwarxe'
+  'Lwaux':
+   'prefix': 'lwaux'
+   'body': 'lwaux'
+  'Lwax':
+   'prefix': 'lwax'
+   'body': 'lwax'
+  'Lwbrx':
+   'prefix': 'lwbrx'
+   'body': 'lwbrx'
+  'Lwbrxe':
+   'prefix': 'lwbrxe'
+   'body': 'lwbrxe'
+  'Lwsync':
+   'prefix': 'lwsync'
+   'body': 'lwsync'
+  'Lwz':
+   'prefix': 'lwz'
+   'body': 'lwz'
+  'Lwzcix':
+   'prefix': 'lwzcix'
+   'body': 'lwzcix'
+  'Lwze':
+   'prefix': 'lwze'
+   'body': 'lwze'
+  'Lwzu':
+   'prefix': 'lwzu'
+   'body': 'lwzu'
+  'Lwzue':
+   'prefix': 'lwzue'
+   'body': 'lwzue'
+  'Lwzux':
+   'prefix': 'lwzux'
+   'body': 'lwzux'
+  'Lwzuxe':
+   'prefix': 'lwzuxe'
+   'body': 'lwzuxe'
+  'Lwzx':
+   'prefix': 'lwzx'
+   'body': 'lwzx'
+  'Lwzxe':
+   'prefix': 'lwzxe'
+   'body': 'lwzxe'
+  'Lx':
+   'prefix': 'lx'
+   'body': 'lx'
+  'Macchw':
+   'prefix': 'macchw'
+   'body': 'macchw'
+  'Macchwo':
+   'prefix': 'macchwo'
+   'body': 'macchwo'
+  'Macchws':
+   'prefix': 'macchws'
+   'body': 'macchws'
+  'Macchwso':
+   'prefix': 'macchwso'
+   'body': 'macchwso'
+  'Macchwsu':
+   'prefix': 'macchwsu'
+   'body': 'macchwsu'
+  'Macchwsuo':
+   'prefix': 'macchwsuo'
+   'body': 'macchwsuo'
+  'Macchwu':
+   'prefix': 'macchwu'
+   'body': 'macchwu'
+  'Macchwuo':
+   'prefix': 'macchwuo'
+   'body': 'macchwuo'
+  'Machhw':
+   'prefix': 'machhw'
+   'body': 'machhw'
+  'Machhwo':
+   'prefix': 'machhwo'
+   'body': 'machhwo'
+  'Machhws':
+   'prefix': 'machhws'
+   'body': 'machhws'
+  'Machhwso':
+   'prefix': 'machhwso'
+   'body': 'machhwso'
+  'Machhwsu':
+   'prefix': 'machhwsu'
+   'body': 'machhwsu'
+  'Machhwsuo':
+   'prefix': 'machhwsuo'
+   'body': 'machhwsuo'
+  'Machhwu':
+   'prefix': 'machhwu'
+   'body': 'machhwu'
+  'Machhwuo':
+   'prefix': 'machhwuo'
+   'body': 'machhwuo'
+  'Maclhw':
+   'prefix': 'maclhw'
+   'body': 'maclhw'
+  'Maclhwo':
+   'prefix': 'maclhwo'
+   'body': 'maclhwo'
+  'Maclhws':
+   'prefix': 'maclhws'
+   'body': 'maclhws'
+  'Maclhwso':
+   'prefix': 'maclhwso'
+   'body': 'maclhwso'
+  'Maclhwsu':
+   'prefix': 'maclhwsu'
+   'body': 'maclhwsu'
+  'Maclhwsuo':
+   'prefix': 'maclhwsuo'
+   'body': 'maclhwsuo'
+  'Maclhwu':
+   'prefix': 'maclhwu'
+   'body': 'maclhwu'
+  'Maclhwuo':
+   'prefix': 'maclhwuo'
+   'body': 'maclhwuo'
+  'Maskg':
+   'prefix': 'maskg'
+   'body': 'maskg'
+  'Maskir':
+   'prefix': 'maskir'
+   'body': 'maskir'
+  'Mbar':
+   'prefix': 'mbar'
+   'body': 'mbar'
+  'Mcrf':
+   'prefix': 'mcrf'
+   'body': 'mcrf'
+  'Mcrfs':
+   'prefix': 'mcrfs'
+   'body': 'mcrfs'
+  'Mcrxr':
+   'prefix': 'mcrxr'
+   'body': 'mcrxr'
+  'Mcrxr64':
+   'prefix': 'mcrxr64'
+   'body': 'mcrxr64'
+  'Mfapidi':
+   'prefix': 'mfapidi'
+   'body': 'mfapidi'
+  'Mfasr':
+   'prefix': 'mfasr'
+   'body': 'mfasr'
+  'Mfbar':
+   'prefix': 'mfbar'
+   'body': 'mfbar'
+  'Mfbbear':
+   'prefix': 'mfbbear'
+   'body': 'mfbbear'
+  'Mfbbtar':
+   'prefix': 'mfbbtar'
+   'body': 'mfbbtar'
+  'Mfbear':
+   'prefix': 'mfbear'
+   'body': 'mfbear'
+  'Mfbesr':
+   'prefix': 'mfbesr'
+   'body': 'mfbesr'
+  'Mfbr0':
+   'prefix': 'mfbr0'
+   'body': 'mfbr0'
+  'Mfbr1':
+   'prefix': 'mfbr1'
+   'body': 'mfbr1'
+  'Mfbr2':
+   'prefix': 'mfbr2'
+   'body': 'mfbr2'
+  'Mfbr3':
+   'prefix': 'mfbr3'
+   'body': 'mfbr3'
+  'Mfbr4':
+   'prefix': 'mfbr4'
+   'body': 'mfbr4'
+  'Mfbr5':
+   'prefix': 'mfbr5'
+   'body': 'mfbr5'
+  'Mfbr6':
+   'prefix': 'mfbr6'
+   'body': 'mfbr6'
+  'Mfbr7':
+   'prefix': 'mfbr7'
+   'body': 'mfbr7'
+  'Mfccr0':
+   'prefix': 'mfccr0'
+   'body': 'mfccr0'
+  'Mfcdbcr':
+   'prefix': 'mfcdbcr'
+   'body': 'mfcdbcr'
+  'Mfcfar':
+   'prefix': 'mfcfar'
+   'body': 'mfcfar'
+  'Mfcmpa':
+   'prefix': 'mfcmpa'
+   'body': 'mfcmpa'
+  'Mfcmpb':
+   'prefix': 'mfcmpb'
+   'body': 'mfcmpb'
+  'Mfcmpc':
+   'prefix': 'mfcmpc'
+   'body': 'mfcmpc'
+  'Mfcmpd':
+   'prefix': 'mfcmpd'
+   'body': 'mfcmpd'
+  'Mfcmpe':
+   'prefix': 'mfcmpe'
+   'body': 'mfcmpe'
+  'Mfcmpf':
+   'prefix': 'mfcmpf'
+   'body': 'mfcmpf'
+  'Mfcmpg':
+   'prefix': 'mfcmpg'
+   'body': 'mfcmpg'
+  'Mfcmph':
+   'prefix': 'mfcmph'
+   'body': 'mfcmph'
+  'Mfcounta':
+   'prefix': 'mfcounta'
+   'body': 'mfcounta'
+  'Mfcountb':
+   'prefix': 'mfcountb'
+   'body': 'mfcountb'
+  'Mfcr':
+   'prefix': 'mfcr'
+   'body': 'mfcr'
+  'Mfcsrr0':
+   'prefix': 'mfcsrr0'
+   'body': 'mfcsrr0'
+  'Mfcsrr1':
+   'prefix': 'mfcsrr1'
+   'body': 'mfcsrr1'
+  'Mfctr':
+   'prefix': 'mfctr'
+   'body': 'mfctr'
+  'Mfdac1':
+   'prefix': 'mfdac1'
+   'body': 'mfdac1'
+  'Mfdac2':
+   'prefix': 'mfdac2'
+   'body': 'mfdac2'
+  'Mfdar':
+   'prefix': 'mfdar'
+   'body': 'mfdar'
+  'Mfdbatl':
+   'prefix': 'mfdbatl'
+   'body': 'mfdbatl'
+  'Mfdbatu':
+   'prefix': 'mfdbatu'
+   'body': 'mfdbatu'
+  'Mfdbcr0':
+   'prefix': 'mfdbcr0'
+   'body': 'mfdbcr0'
+  'Mfdbcr1':
+   'prefix': 'mfdbcr1'
+   'body': 'mfdbcr1'
+  'Mfdbcr2':
+   'prefix': 'mfdbcr2'
+   'body': 'mfdbcr2'
+  'Mfdbsr':
+   'prefix': 'mfdbsr'
+   'body': 'mfdbsr'
+  'Mfdc_adr':
+   'prefix': 'mfdc_adr'
+   'body': 'mfdc_adr'
+  'Mfdc_cst':
+   'prefix': 'mfdc_cst'
+   'body': 'mfdc_cst'
+  'Mfdc_dat':
+   'prefix': 'mfdc_dat'
+   'body': 'mfdc_dat'
+  'Mfdccr':
+   'prefix': 'mfdccr'
+   'body': 'mfdccr'
+  'Mfdcr':
+   'prefix': 'mfdcr'
+   'body': 'mfdcr'
+  'Mfdcrx':
+   'prefix': 'mfdcrx'
+   'body': 'mfdcrx'
+  'Mfdcwr':
+   'prefix': 'mfdcwr'
+   'body': 'mfdcwr'
+  'Mfdear':
+   'prefix': 'mfdear'
+   'body': 'mfdear'
+  'Mfdec':
+   'prefix': 'mfdec'
+   'body': 'mfdec'
+  'Mfder':
+   'prefix': 'mfder'
+   'body': 'mfder'
+  'Mfdmacc0':
+   'prefix': 'mfdmacc0'
+   'body': 'mfdmacc0'
+  'Mfdmacc1':
+   'prefix': 'mfdmacc1'
+   'body': 'mfdmacc1'
+  'Mfdmacc2':
+   'prefix': 'mfdmacc2'
+   'body': 'mfdmacc2'
+  'Mfdmacc3':
+   'prefix': 'mfdmacc3'
+   'body': 'mfdmacc3'
+  'Mfdmacr0':
+   'prefix': 'mfdmacr0'
+   'body': 'mfdmacr0'
+  'Mfdmacr1':
+   'prefix': 'mfdmacr1'
+   'body': 'mfdmacr1'
+  'Mfdmacr2':
+   'prefix': 'mfdmacr2'
+   'body': 'mfdmacr2'
+  'Mfdmacr3':
+   'prefix': 'mfdmacr3'
+   'body': 'mfdmacr3'
+  'Mfdmact0':
+   'prefix': 'mfdmact0'
+   'body': 'mfdmact0'
+  'Mfdmact1':
+   'prefix': 'mfdmact1'
+   'body': 'mfdmact1'
+  'Mfdmact2':
+   'prefix': 'mfdmact2'
+   'body': 'mfdmact2'
+  'Mfdmact3':
+   'prefix': 'mfdmact3'
+   'body': 'mfdmact3'
+  'Mfdmada0':
+   'prefix': 'mfdmada0'
+   'body': 'mfdmada0'
+  'Mfdmada1':
+   'prefix': 'mfdmada1'
+   'body': 'mfdmada1'
+  'Mfdmada2':
+   'prefix': 'mfdmada2'
+   'body': 'mfdmada2'
+  'Mfdmada3':
+   'prefix': 'mfdmada3'
+   'body': 'mfdmada3'
+  'Mfdmasa0':
+   'prefix': 'mfdmasa0'
+   'body': 'mfdmasa0'
+  'Mfdmasa1':
+   'prefix': 'mfdmasa1'
+   'body': 'mfdmasa1'
+  'Mfdmasa2':
+   'prefix': 'mfdmasa2'
+   'body': 'mfdmasa2'
+  'Mfdmasa3':
+   'prefix': 'mfdmasa3'
+   'body': 'mfdmasa3'
+  'Mfdmasr':
+   'prefix': 'mfdmasr'
+   'body': 'mfdmasr'
+  'Mfdpdr':
+   'prefix': 'mfdpdr'
+   'body': 'mfdpdr'
+  'Mfdpir':
+   'prefix': 'mfdpir'
+   'body': 'mfdpir'
+  'Mfdsisr':
+   'prefix': 'mfdsisr'
+   'body': 'mfdsisr'
+  'Mfdvc1':
+   'prefix': 'mfdvc1'
+   'body': 'mfdvc1'
+  'Mfdvc2':
+   'prefix': 'mfdvc2'
+   'body': 'mfdvc2'
+  'Mfear':
+   'prefix': 'mfear'
+   'body': 'mfear'
+  'Mfesr':
+   'prefix': 'mfesr'
+   'body': 'mfesr'
+  'Mfevpr':
+   'prefix': 'mfevpr'
+   'body': 'mfevpr'
+  'Mfexier':
+   'prefix': 'mfexier'
+   'body': 'mfexier'
+  'Mfexisr':
+   'prefix': 'mfexisr'
+   'body': 'mfexisr'
+  'Mffgpr':
+   'prefix': 'mffgpr'
+   'body': 'mffgpr'
+  'Mffs':
+   'prefix': 'mffs'
+   'body': 'mffs'
+  'Mfiac1':
+   'prefix': 'mfiac1'
+   'body': 'mfiac1'
+  'Mfiac2':
+   'prefix': 'mfiac2'
+   'body': 'mfiac2'
+  'Mfiac3':
+   'prefix': 'mfiac3'
+   'body': 'mfiac3'
+  'Mfiac4':
+   'prefix': 'mfiac4'
+   'body': 'mfiac4'
+  'Mfibatl':
+   'prefix': 'mfibatl'
+   'body': 'mfibatl'
+  'Mfibatu':
+   'prefix': 'mfibatu'
+   'body': 'mfibatu'
+  'Mfic_adr':
+   'prefix': 'mfic_adr'
+   'body': 'mfic_adr'
+  'Mfic_cst':
+   'prefix': 'mfic_cst'
+   'body': 'mfic_cst'
+  'Mfic_dat':
+   'prefix': 'mfic_dat'
+   'body': 'mfic_dat'
+  'Mficcr':
+   'prefix': 'mficcr'
+   'body': 'mficcr'
+  'Mficdbdr':
+   'prefix': 'mficdbdr'
+   'body': 'mficdbdr'
+  'Mficr':
+   'prefix': 'mficr'
+   'body': 'mficr'
+  'Mfictc':
+   'prefix': 'mfictc'
+   'body': 'mfictc'
+  'Mfictrl':
+   'prefix': 'mfictrl'
+   'body': 'mfictrl'
+  'Mfimmr':
+   'prefix': 'mfimmr'
+   'body': 'mfimmr'
+  'Mfiocr':
+   'prefix': 'mfiocr'
+   'body': 'mfiocr'
+  'Mfivor0':
+   'prefix': 'mfivor0'
+   'body': 'mfivor0'
+  'Mfivor1':
+   'prefix': 'mfivor1'
+   'body': 'mfivor1'
+  'Mfivor10':
+   'prefix': 'mfivor10'
+   'body': 'mfivor10'
+  'Mfivor11':
+   'prefix': 'mfivor11'
+   'body': 'mfivor11'
+  'Mfivor12':
+   'prefix': 'mfivor12'
+   'body': 'mfivor12'
+  'Mfivor13':
+   'prefix': 'mfivor13'
+   'body': 'mfivor13'
+  'Mfivor14':
+   'prefix': 'mfivor14'
+   'body': 'mfivor14'
+  'Mfivor15':
+   'prefix': 'mfivor15'
+   'body': 'mfivor15'
+  'Mfivor2':
+   'prefix': 'mfivor2'
+   'body': 'mfivor2'
+  'Mfivor3':
+   'prefix': 'mfivor3'
+   'body': 'mfivor3'
+  'Mfivor32':
+   'prefix': 'mfivor32'
+   'body': 'mfivor32'
+  'Mfivor33':
+   'prefix': 'mfivor33'
+   'body': 'mfivor33'
+  'Mfivor34':
+   'prefix': 'mfivor34'
+   'body': 'mfivor34'
+  'Mfivor35':
+   'prefix': 'mfivor35'
+   'body': 'mfivor35'
+  'Mfivor4':
+   'prefix': 'mfivor4'
+   'body': 'mfivor4'
+  'Mfivor5':
+   'prefix': 'mfivor5'
+   'body': 'mfivor5'
+  'Mfivor6':
+   'prefix': 'mfivor6'
+   'body': 'mfivor6'
+  'Mfivor7':
+   'prefix': 'mfivor7'
+   'body': 'mfivor7'
+  'Mfivor8':
+   'prefix': 'mfivor8'
+   'body': 'mfivor8'
+  'Mfivor9':
+   'prefix': 'mfivor9'
+   'body': 'mfivor9'
+  'Mfivpr':
+   'prefix': 'mfivpr'
+   'body': 'mfivpr'
+  'Mfl2cr':
+   'prefix': 'mfl2cr'
+   'body': 'mfl2cr'
+  'Mflctrl1':
+   'prefix': 'mflctrl1'
+   'body': 'mflctrl1'
+  'Mflctrl2':
+   'prefix': 'mflctrl2'
+   'body': 'mflctrl2'
+  'Mflr':
+   'prefix': 'mflr'
+   'body': 'mflr'
+  'Mfm_casid':
+   'prefix': 'mfm_casid'
+   'body': 'mfm_casid'
+  'Mfm_tw':
+   'prefix': 'mfm_tw'
+   'body': 'mfm_tw'
+  'Mfmcar':
+   'prefix': 'mfmcar'
+   'body': 'mfmcar'
+  'Mfmcsr':
+   'prefix': 'mfmcsr'
+   'body': 'mfmcsr'
+  'Mfmcsrr0':
+   'prefix': 'mfmcsrr0'
+   'body': 'mfmcsrr0'
+  'Mfmcsrr1':
+   'prefix': 'mfmcsrr1'
+   'body': 'mfmcsrr1'
+  'Mfmd_ap':
+   'prefix': 'mfmd_ap'
+   'body': 'mfmd_ap'
+  'Mfmd_ctr':
+   'prefix': 'mfmd_ctr'
+   'body': 'mfmd_ctr'
+  'Mfmd_dbcam':
+   'prefix': 'mfmd_dbcam'
+   'body': 'mfmd_dbcam'
+  'Mfmd_dbram0':
+   'prefix': 'mfmd_dbram0'
+   'body': 'mfmd_dbram0'
+  'Mfmd_dbram1':
+   'prefix': 'mfmd_dbram1'
+   'body': 'mfmd_dbram1'
+  'Mfmd_epn':
+   'prefix': 'mfmd_epn'
+   'body': 'mfmd_epn'
+  'Mfmd_rpn':
+   'prefix': 'mfmd_rpn'
+   'body': 'mfmd_rpn'
+  'Mfmd_twb':
+   'prefix': 'mfmd_twb'
+   'body': 'mfmd_twb'
+  'Mfmd_twc':
+   'prefix': 'mfmd_twc'
+   'body': 'mfmd_twc'
+  'Mfmi_ap':
+   'prefix': 'mfmi_ap'
+   'body': 'mfmi_ap'
+  'Mfmi_ctr':
+   'prefix': 'mfmi_ctr'
+   'body': 'mfmi_ctr'
+  'Mfmi_dbcam':
+   'prefix': 'mfmi_dbcam'
+   'body': 'mfmi_dbcam'
+  'Mfmi_dbram0':
+   'prefix': 'mfmi_dbram0'
+   'body': 'mfmi_dbram0'
+  'Mfmi_dbram1':
+   'prefix': 'mfmi_dbram1'
+   'body': 'mfmi_dbram1'
+  'Mfmi_epn':
+   'prefix': 'mfmi_epn'
+   'body': 'mfmi_epn'
+  'Mfmi_rpn':
+   'prefix': 'mfmi_rpn'
+   'body': 'mfmi_rpn'
+  'Mfmi_twc':
+   'prefix': 'mfmi_twc'
+   'body': 'mfmi_twc'
+  'Mfmmcr0':
+   'prefix': 'mfmmcr0'
+   'body': 'mfmmcr0'
+  'Mfmmcr1':
+   'prefix': 'mfmmcr1'
+   'body': 'mfmmcr1'
+  'Mfmq':
+   'prefix': 'mfmq'
+   'body': 'mfmq'
+  'Mfmsr':
+   'prefix': 'mfmsr'
+   'body': 'mfmsr'
+  'Mfocrf':
+   'prefix': 'mfocrf'
+   'body': 'mfocrf'
+  'Mfpbl1':
+   'prefix': 'mfpbl1'
+   'body': 'mfpbl1'
+  'Mfpbl2':
+   'prefix': 'mfpbl2'
+   'body': 'mfpbl2'
+  'Mfpbu1':
+   'prefix': 'mfpbu1'
+   'body': 'mfpbu1'
+  'Mfpbu2':
+   'prefix': 'mfpbu2'
+   'body': 'mfpbu2'
+  'Mfpid':
+   'prefix': 'mfpid'
+   'body': 'mfpid'
+  'Mfpir':
+   'prefix': 'mfpir'
+   'body': 'mfpir'
+  'Mfpit':
+   'prefix': 'mfpit'
+   'body': 'mfpit'
+  'Mfpmc1':
+   'prefix': 'mfpmc1'
+   'body': 'mfpmc1'
+  'Mfpmc2':
+   'prefix': 'mfpmc2'
+   'body': 'mfpmc2'
+  'Mfpmc3':
+   'prefix': 'mfpmc3'
+   'body': 'mfpmc3'
+  'Mfpmc4':
+   'prefix': 'mfpmc4'
+   'body': 'mfpmc4'
+  'Mfpmr':
+   'prefix': 'mfpmr'
+   'body': 'mfpmr'
+  'Mfpvr':
+   'prefix': 'mfpvr'
+   'body': 'mfpvr'
+  'Mfrtcl':
+   'prefix': 'mfrtcl'
+   'body': 'mfrtcl'
+  'Mfrtcu':
+   'prefix': 'mfrtcu'
+   'body': 'mfrtcu'
+  'Mfsdr0':
+   'prefix': 'mfsdr0'
+   'body': 'mfsdr0'
+  'Mfsdr1':
+   'prefix': 'mfsdr1'
+   'body': 'mfsdr1'
+  'Mfsgr':
+   'prefix': 'mfsgr'
+   'body': 'mfsgr'
+  'Mfsia':
+   'prefix': 'mfsia'
+   'body': 'mfsia'
+  'Mfsler':
+   'prefix': 'mfsler'
+   'body': 'mfsler'
+  'Mfspefscr':
+   'prefix': 'mfspefscr'
+   'body': 'mfspefscr'
+  'Mfspr':
+   'prefix': 'mfspr'
+   'body': 'mfspr'
+  'Mfsprg':
+   'prefix': 'mfsprg'
+   'body': 'mfsprg'
+  'Mfsprg0':
+   'prefix': 'mfsprg0'
+   'body': 'mfsprg0'
+  'Mfsprg1':
+   'prefix': 'mfsprg1'
+   'body': 'mfsprg1'
+  'Mfsprg2':
+   'prefix': 'mfsprg2'
+   'body': 'mfsprg2'
+  'Mfsprg3':
+   'prefix': 'mfsprg3'
+   'body': 'mfsprg3'
+  'Mfsprg4':
+   'prefix': 'mfsprg4'
+   'body': 'mfsprg4'
+  'Mfsprg5':
+   'prefix': 'mfsprg5'
+   'body': 'mfsprg5'
+  'Mfsprg6':
+   'prefix': 'mfsprg6'
+   'body': 'mfsprg6'
+  'Mfsprg7':
+   'prefix': 'mfsprg7'
+   'body': 'mfsprg7'
+  'Mfsr':
+   'prefix': 'mfsr'
+   'body': 'mfsr'
+  'Mfsri':
+   'prefix': 'mfsri'
+   'body': 'mfsri'
+  'Mfsrin':
+   'prefix': 'mfsrin'
+   'body': 'mfsrin'
+  'Mfsrr0':
+   'prefix': 'mfsrr0'
+   'body': 'mfsrr0'
+  'Mfsrr1':
+   'prefix': 'mfsrr1'
+   'body': 'mfsrr1'
+  'Mfsrr2':
+   'prefix': 'mfsrr2'
+   'body': 'mfsrr2'
+  'Mfsrr3':
+   'prefix': 'mfsrr3'
+   'body': 'mfsrr3'
+  'Mfsu0r':
+   'prefix': 'mfsu0r'
+   'body': 'mfsu0r'
+  'Mftb':
+   'prefix': 'mftb'
+   'body': 'mftb'
+  'Mftbhi':
+   'prefix': 'mftbhi'
+   'body': 'mftbhi'
+  'Mftbl':
+   'prefix': 'mftbl'
+   'body': 'mftbl'
+  'Mftblo':
+   'prefix': 'mftblo'
+   'body': 'mftblo'
+  'Mftbu':
+   'prefix': 'mftbu'
+   'body': 'mftbu'
+  'Mftcr':
+   'prefix': 'mftcr'
+   'body': 'mftcr'
+  'Mftgpr':
+   'prefix': 'mftgpr'
+   'body': 'mftgpr'
+  'Mfthrm1':
+   'prefix': 'mfthrm1'
+   'body': 'mfthrm1'
+  'Mfthrm2':
+   'prefix': 'mfthrm2'
+   'body': 'mfthrm2'
+  'Mfthrm3':
+   'prefix': 'mfthrm3'
+   'body': 'mfthrm3'
+  'Mftid':
+   'prefix': 'mftid'
+   'body': 'mftid'
+  'Mftsr':
+   'prefix': 'mftsr'
+   'body': 'mftsr'
+  'Mfummcr0':
+   'prefix': 'mfummcr0'
+   'body': 'mfummcr0'
+  'Mfummcr1':
+   'prefix': 'mfummcr1'
+   'body': 'mfummcr1'
+  'Mfupmc1':
+   'prefix': 'mfupmc1'
+   'body': 'mfupmc1'
+  'Mfupmc2':
+   'prefix': 'mfupmc2'
+   'body': 'mfupmc2'
+  'Mfupmc3':
+   'prefix': 'mfupmc3'
+   'body': 'mfupmc3'
+  'Mfupmc4':
+   'prefix': 'mfupmc4'
+   'body': 'mfupmc4'
+  'Mfusia':
+   'prefix': 'mfusia'
+   'body': 'mfusia'
+  'Mfusprg0':
+   'prefix': 'mfusprg0'
+   'body': 'mfusprg0'
+  'Mfvrsave':
+   'prefix': 'mfvrsave'
+   'body': 'mfvrsave'
+  'Mfvscr':
+   'prefix': 'mfvscr'
+   'body': 'mfvscr'
+  'Mfxer':
+   'prefix': 'mfxer'
+   'body': 'mfxer'
+  'Mfzpr':
+   'prefix': 'mfzpr'
+   'body': 'mfzpr'
+  'Mr':
+   'prefix': 'mr'
+   'body': 'mr'
+  'Msync':
+   'prefix': 'msync'
+   'body': 'msync'
+  'Mtasr':
+   'prefix': 'mtasr'
+   'body': 'mtasr'
+  'Mtbar':
+   'prefix': 'mtbar'
+   'body': 'mtbar'
+  'Mtbbear':
+   'prefix': 'mtbbear'
+   'body': 'mtbbear'
+  'Mtbbtar':
+   'prefix': 'mtbbtar'
+   'body': 'mtbbtar'
+  'Mtbear':
+   'prefix': 'mtbear'
+   'body': 'mtbear'
+  'Mtbesr':
+   'prefix': 'mtbesr'
+   'body': 'mtbesr'
+  'Mtbr0':
+   'prefix': 'mtbr0'
+   'body': 'mtbr0'
+  'Mtbr1':
+   'prefix': 'mtbr1'
+   'body': 'mtbr1'
+  'Mtbr2':
+   'prefix': 'mtbr2'
+   'body': 'mtbr2'
+  'Mtbr3':
+   'prefix': 'mtbr3'
+   'body': 'mtbr3'
+  'Mtbr4':
+   'prefix': 'mtbr4'
+   'body': 'mtbr4'
+  'Mtbr5':
+   'prefix': 'mtbr5'
+   'body': 'mtbr5'
+  'Mtbr6':
+   'prefix': 'mtbr6'
+   'body': 'mtbr6'
+  'Mtbr7':
+   'prefix': 'mtbr7'
+   'body': 'mtbr7'
+  'Mtccr0':
+   'prefix': 'mtccr0'
+   'body': 'mtccr0'
+  'Mtcdbcr':
+   'prefix': 'mtcdbcr'
+   'body': 'mtcdbcr'
+  'Mtcfar':
+   'prefix': 'mtcfar'
+   'body': 'mtcfar'
+  'Mtcmpa':
+   'prefix': 'mtcmpa'
+   'body': 'mtcmpa'
+  'Mtcmpb':
+   'prefix': 'mtcmpb'
+   'body': 'mtcmpb'
+  'Mtcmpc':
+   'prefix': 'mtcmpc'
+   'body': 'mtcmpc'
+  'Mtcmpd':
+   'prefix': 'mtcmpd'
+   'body': 'mtcmpd'
+  'Mtcmpe':
+   'prefix': 'mtcmpe'
+   'body': 'mtcmpe'
+  'Mtcmpf':
+   'prefix': 'mtcmpf'
+   'body': 'mtcmpf'
+  'Mtcmpg':
+   'prefix': 'mtcmpg'
+   'body': 'mtcmpg'
+  'Mtcmph':
+   'prefix': 'mtcmph'
+   'body': 'mtcmph'
+  'Mtcounta':
+   'prefix': 'mtcounta'
+   'body': 'mtcounta'
+  'Mtcountb':
+   'prefix': 'mtcountb'
+   'body': 'mtcountb'
+  'Mtcr':
+   'prefix': 'mtcr'
+   'body': 'mtcr'
+  'Mtcrf':
+   'prefix': 'mtcrf'
+   'body': 'mtcrf'
+  'Mtcsrr0':
+   'prefix': 'mtcsrr0'
+   'body': 'mtcsrr0'
+  'Mtcsrr1':
+   'prefix': 'mtcsrr1'
+   'body': 'mtcsrr1'
+  'Mtctr':
+   'prefix': 'mtctr'
+   'body': 'mtctr'
+  'Mtdac1':
+   'prefix': 'mtdac1'
+   'body': 'mtdac1'
+  'Mtdac2':
+   'prefix': 'mtdac2'
+   'body': 'mtdac2'
+  'Mtdar':
+   'prefix': 'mtdar'
+   'body': 'mtdar'
+  'Mtdbatl':
+   'prefix': 'mtdbatl'
+   'body': 'mtdbatl'
+  'Mtdbatu':
+   'prefix': 'mtdbatu'
+   'body': 'mtdbatu'
+  'Mtdbcr0':
+   'prefix': 'mtdbcr0'
+   'body': 'mtdbcr0'
+  'Mtdbcr1':
+   'prefix': 'mtdbcr1'
+   'body': 'mtdbcr1'
+  'Mtdbcr2':
+   'prefix': 'mtdbcr2'
+   'body': 'mtdbcr2'
+  'Mtdbsr':
+   'prefix': 'mtdbsr'
+   'body': 'mtdbsr'
+  'Mtdccr':
+   'prefix': 'mtdccr'
+   'body': 'mtdccr'
+  'Mtdcr':
+   'prefix': 'mtdcr'
+   'body': 'mtdcr'
+  'Mtdcrx':
+   'prefix': 'mtdcrx'
+   'body': 'mtdcrx'
+  'Mtdcwr':
+   'prefix': 'mtdcwr'
+   'body': 'mtdcwr'
+  'Mtdear':
+   'prefix': 'mtdear'
+   'body': 'mtdear'
+  'Mtdec':
+   'prefix': 'mtdec'
+   'body': 'mtdec'
+  'Mtdecar':
+   'prefix': 'mtdecar'
+   'body': 'mtdecar'
+  'Mtder':
+   'prefix': 'mtder'
+   'body': 'mtder'
+  'Mtdmacc0':
+   'prefix': 'mtdmacc0'
+   'body': 'mtdmacc0'
+  'Mtdmacc1':
+   'prefix': 'mtdmacc1'
+   'body': 'mtdmacc1'
+  'Mtdmacc2':
+   'prefix': 'mtdmacc2'
+   'body': 'mtdmacc2'
+  'Mtdmacc3':
+   'prefix': 'mtdmacc3'
+   'body': 'mtdmacc3'
+  'Mtdmacr0':
+   'prefix': 'mtdmacr0'
+   'body': 'mtdmacr0'
+  'Mtdmacr1':
+   'prefix': 'mtdmacr1'
+   'body': 'mtdmacr1'
+  'Mtdmacr2':
+   'prefix': 'mtdmacr2'
+   'body': 'mtdmacr2'
+  'Mtdmacr3':
+   'prefix': 'mtdmacr3'
+   'body': 'mtdmacr3'
+  'Mtdmact0':
+   'prefix': 'mtdmact0'
+   'body': 'mtdmact0'
+  'Mtdmact1':
+   'prefix': 'mtdmact1'
+   'body': 'mtdmact1'
+  'Mtdmact2':
+   'prefix': 'mtdmact2'
+   'body': 'mtdmact2'
+  'Mtdmact3':
+   'prefix': 'mtdmact3'
+   'body': 'mtdmact3'
+  'Mtdmada0':
+   'prefix': 'mtdmada0'
+   'body': 'mtdmada0'
+  'Mtdmada1':
+   'prefix': 'mtdmada1'
+   'body': 'mtdmada1'
+  'Mtdmada2':
+   'prefix': 'mtdmada2'
+   'body': 'mtdmada2'
+  'Mtdmada3':
+   'prefix': 'mtdmada3'
+   'body': 'mtdmada3'
+  'Mtdmasa0':
+   'prefix': 'mtdmasa0'
+   'body': 'mtdmasa0'
+  'Mtdmasa1':
+   'prefix': 'mtdmasa1'
+   'body': 'mtdmasa1'
+  'Mtdmasa2':
+   'prefix': 'mtdmasa2'
+   'body': 'mtdmasa2'
+  'Mtdmasa3':
+   'prefix': 'mtdmasa3'
+   'body': 'mtdmasa3'
+  'Mtdmasr':
+   'prefix': 'mtdmasr'
+   'body': 'mtdmasr'
+  'Mtdsisr':
+   'prefix': 'mtdsisr'
+   'body': 'mtdsisr'
+  'Mtdvc1':
+   'prefix': 'mtdvc1'
+   'body': 'mtdvc1'
+  'Mtdvc2':
+   'prefix': 'mtdvc2'
+   'body': 'mtdvc2'
+  'Mtear':
+   'prefix': 'mtear'
+   'body': 'mtear'
+  'Mtesr':
+   'prefix': 'mtesr'
+   'body': 'mtesr'
+  'Mtevpr':
+   'prefix': 'mtevpr'
+   'body': 'mtevpr'
+  'Mtexier':
+   'prefix': 'mtexier'
+   'body': 'mtexier'
+  'Mtexisr':
+   'prefix': 'mtexisr'
+   'body': 'mtexisr'
+  'Mtfsb0':
+   'prefix': 'mtfsb0'
+   'body': 'mtfsb0'
+  'Mtfsb1':
+   'prefix': 'mtfsb1'
+   'body': 'mtfsb1'
+  'Mtfsf':
+   'prefix': 'mtfsf'
+   'body': 'mtfsf'
+  'Mtfsfi':
+   'prefix': 'mtfsfi'
+   'body': 'mtfsfi'
+  'Mtiac1':
+   'prefix': 'mtiac1'
+   'body': 'mtiac1'
+  'Mtiac2':
+   'prefix': 'mtiac2'
+   'body': 'mtiac2'
+  'Mtiac3':
+   'prefix': 'mtiac3'
+   'body': 'mtiac3'
+  'Mtiac4':
+   'prefix': 'mtiac4'
+   'body': 'mtiac4'
+  'Mtibatl':
+   'prefix': 'mtibatl'
+   'body': 'mtibatl'
+  'Mtibatu':
+   'prefix': 'mtibatu'
+   'body': 'mtibatu'
+  'Mticcr':
+   'prefix': 'mticcr'
+   'body': 'mticcr'
+  'Mticdbdr':
+   'prefix': 'mticdbdr'
+   'body': 'mticdbdr'
+  'Mticr':
+   'prefix': 'mticr'
+   'body': 'mticr'
+  'Mtictc':
+   'prefix': 'mtictc'
+   'body': 'mtictc'
+  'Mtictrl':
+   'prefix': 'mtictrl'
+   'body': 'mtictrl'
+  'Mtiocr':
+   'prefix': 'mtiocr'
+   'body': 'mtiocr'
+  'Mtivor0':
+   'prefix': 'mtivor0'
+   'body': 'mtivor0'
+  'Mtivor1':
+   'prefix': 'mtivor1'
+   'body': 'mtivor1'
+  'Mtivor10':
+   'prefix': 'mtivor10'
+   'body': 'mtivor10'
+  'Mtivor11':
+   'prefix': 'mtivor11'
+   'body': 'mtivor11'
+  'Mtivor12':
+   'prefix': 'mtivor12'
+   'body': 'mtivor12'
+  'Mtivor13':
+   'prefix': 'mtivor13'
+   'body': 'mtivor13'
+  'Mtivor14':
+   'prefix': 'mtivor14'
+   'body': 'mtivor14'
+  'Mtivor15':
+   'prefix': 'mtivor15'
+   'body': 'mtivor15'
+  'Mtivor2':
+   'prefix': 'mtivor2'
+   'body': 'mtivor2'
+  'Mtivor3':
+   'prefix': 'mtivor3'
+   'body': 'mtivor3'
+  'Mtivor32':
+   'prefix': 'mtivor32'
+   'body': 'mtivor32'
+  'Mtivor33':
+   'prefix': 'mtivor33'
+   'body': 'mtivor33'
+  'Mtivor34':
+   'prefix': 'mtivor34'
+   'body': 'mtivor34'
+  'Mtivor35':
+   'prefix': 'mtivor35'
+   'body': 'mtivor35'
+  'Mtivor4':
+   'prefix': 'mtivor4'
+   'body': 'mtivor4'
+  'Mtivor5':
+   'prefix': 'mtivor5'
+   'body': 'mtivor5'
+  'Mtivor6':
+   'prefix': 'mtivor6'
+   'body': 'mtivor6'
+  'Mtivor7':
+   'prefix': 'mtivor7'
+   'body': 'mtivor7'
+  'Mtivor8':
+   'prefix': 'mtivor8'
+   'body': 'mtivor8'
+  'Mtivor9':
+   'prefix': 'mtivor9'
+   'body': 'mtivor9'
+  'Mtivpr':
+   'prefix': 'mtivpr'
+   'body': 'mtivpr'
+  'Mtl2cr':
+   'prefix': 'mtl2cr'
+   'body': 'mtl2cr'
+  'Mtlctrl1':
+   'prefix': 'mtlctrl1'
+   'body': 'mtlctrl1'
+  'Mtlctrl2':
+   'prefix': 'mtlctrl2'
+   'body': 'mtlctrl2'
+  'Mtlr':
+   'prefix': 'mtlr'
+   'body': 'mtlr'
+  'Mtmcsr':
+   'prefix': 'mtmcsr'
+   'body': 'mtmcsr'
+  'Mtmcsrr0':
+   'prefix': 'mtmcsrr0'
+   'body': 'mtmcsrr0'
+  'Mtmcsrr1':
+   'prefix': 'mtmcsrr1'
+   'body': 'mtmcsrr1'
+  'Mtmmcr0':
+   'prefix': 'mtmmcr0'
+   'body': 'mtmmcr0'
+  'Mtmmcr1':
+   'prefix': 'mtmmcr1'
+   'body': 'mtmmcr1'
+  'Mtmq':
+   'prefix': 'mtmq'
+   'body': 'mtmq'
+  'Mtmsr':
+   'prefix': 'mtmsr'
+   'body': 'mtmsr'
+  'Mtmsrd':
+   'prefix': 'mtmsrd'
+   'body': 'mtmsrd'
+  'Mtocrf':
+   'prefix': 'mtocrf'
+   'body': 'mtocrf'
+  'Mtpbl1':
+   'prefix': 'mtpbl1'
+   'body': 'mtpbl1'
+  'Mtpbl2':
+   'prefix': 'mtpbl2'
+   'body': 'mtpbl2'
+  'Mtpbu1':
+   'prefix': 'mtpbu1'
+   'body': 'mtpbu1'
+  'Mtpbu2':
+   'prefix': 'mtpbu2'
+   'body': 'mtpbu2'
+  'Mtpid':
+   'prefix': 'mtpid'
+   'body': 'mtpid'
+  'Mtpit':
+   'prefix': 'mtpit'
+   'body': 'mtpit'
+  'Mtpmc1':
+   'prefix': 'mtpmc1'
+   'body': 'mtpmc1'
+  'Mtpmc2':
+   'prefix': 'mtpmc2'
+   'body': 'mtpmc2'
+  'Mtpmc3':
+   'prefix': 'mtpmc3'
+   'body': 'mtpmc3'
+  'Mtpmc4':
+   'prefix': 'mtpmc4'
+   'body': 'mtpmc4'
+  'Mtpmr':
+   'prefix': 'mtpmr'
+   'body': 'mtpmr'
+  'Mtrtcl':
+   'prefix': 'mtrtcl'
+   'body': 'mtrtcl'
+  'Mtrtcu':
+   'prefix': 'mtrtcu'
+   'body': 'mtrtcu'
+  'Mtsdr0':
+   'prefix': 'mtsdr0'
+   'body': 'mtsdr0'
+  'Mtsdr1':
+   'prefix': 'mtsdr1'
+   'body': 'mtsdr1'
+  'Mtsgr':
+   'prefix': 'mtsgr'
+   'body': 'mtsgr'
+  'Mtsia':
+   'prefix': 'mtsia'
+   'body': 'mtsia'
+  'Mtsler':
+   'prefix': 'mtsler'
+   'body': 'mtsler'
+  'Mtspefscr':
+   'prefix': 'mtspefscr'
+   'body': 'mtspefscr'
+  'Mtspr':
+   'prefix': 'mtspr'
+   'body': 'mtspr'
+  'Mtsprg':
+   'prefix': 'mtsprg'
+   'body': 'mtsprg'
+  'Mtsprg0':
+   'prefix': 'mtsprg0'
+   'body': 'mtsprg0'
+  'Mtsprg1':
+   'prefix': 'mtsprg1'
+   'body': 'mtsprg1'
+  'Mtsprg2':
+   'prefix': 'mtsprg2'
+   'body': 'mtsprg2'
+  'Mtsprg3':
+   'prefix': 'mtsprg3'
+   'body': 'mtsprg3'
+  'Mtsprg4':
+   'prefix': 'mtsprg4'
+   'body': 'mtsprg4'
+  'Mtsprg5':
+   'prefix': 'mtsprg5'
+   'body': 'mtsprg5'
+  'Mtsprg6':
+   'prefix': 'mtsprg6'
+   'body': 'mtsprg6'
+  'Mtsprg7':
+   'prefix': 'mtsprg7'
+   'body': 'mtsprg7'
+  'Mtsr':
+   'prefix': 'mtsr'
+   'body': 'mtsr'
+  'Mtsrd':
+   'prefix': 'mtsrd'
+   'body': 'mtsrd'
+  'Mtsrdin':
+   'prefix': 'mtsrdin'
+   'body': 'mtsrdin'
+  'Mtsri':
+   'prefix': 'mtsri'
+   'body': 'mtsri'
+  'Mtsrin':
+   'prefix': 'mtsrin'
+   'body': 'mtsrin'
+  'Mtsrr0':
+   'prefix': 'mtsrr0'
+   'body': 'mtsrr0'
+  'Mtsrr1':
+   'prefix': 'mtsrr1'
+   'body': 'mtsrr1'
+  'Mtsrr2':
+   'prefix': 'mtsrr2'
+   'body': 'mtsrr2'
+  'Mtsrr3':
+   'prefix': 'mtsrr3'
+   'body': 'mtsrr3'
+  'Mtsu0r':
+   'prefix': 'mtsu0r'
+   'body': 'mtsu0r'
+  'Mttbhi':
+   'prefix': 'mttbhi'
+   'body': 'mttbhi'
+  'Mttbl':
+   'prefix': 'mttbl'
+   'body': 'mttbl'
+  'Mttblo':
+   'prefix': 'mttblo'
+   'body': 'mttblo'
+  'Mttbu':
+   'prefix': 'mttbu'
+   'body': 'mttbu'
+  'Mttcr':
+   'prefix': 'mttcr'
+   'body': 'mttcr'
+  'Mtthrm1':
+   'prefix': 'mtthrm1'
+   'body': 'mtthrm1'
+  'Mtthrm2':
+   'prefix': 'mtthrm2'
+   'body': 'mtthrm2'
+  'Mtthrm3':
+   'prefix': 'mtthrm3'
+   'body': 'mtthrm3'
+  'Mttid':
+   'prefix': 'mttid'
+   'body': 'mttid'
+  'Mttsr':
+   'prefix': 'mttsr'
+   'body': 'mttsr'
+  'Mtummcr0':
+   'prefix': 'mtummcr0'
+   'body': 'mtummcr0'
+  'Mtummcr1':
+   'prefix': 'mtummcr1'
+   'body': 'mtummcr1'
+  'Mtupmc1':
+   'prefix': 'mtupmc1'
+   'body': 'mtupmc1'
+  'Mtupmc2':
+   'prefix': 'mtupmc2'
+   'body': 'mtupmc2'
+  'Mtupmc3':
+   'prefix': 'mtupmc3'
+   'body': 'mtupmc3'
+  'Mtupmc4':
+   'prefix': 'mtupmc4'
+   'body': 'mtupmc4'
+  'Mtusia':
+   'prefix': 'mtusia'
+   'body': 'mtusia'
+  'Mtusprg0':
+   'prefix': 'mtusprg0'
+   'body': 'mtusprg0'
+  'Mtvrsave':
+   'prefix': 'mtvrsave'
+   'body': 'mtvrsave'
+  'Mtvscr':
+   'prefix': 'mtvscr'
+   'body': 'mtvscr'
+  'Mtxer':
+   'prefix': 'mtxer'
+   'body': 'mtxer'
+  'Mtzpr':
+   'prefix': 'mtzpr'
+   'body': 'mtzpr'
+  'Mul':
+   'prefix': 'mul'
+   'body': 'mul'
+  'Mulchw':
+   'prefix': 'mulchw'
+   'body': 'mulchw'
+  'Mulchwu':
+   'prefix': 'mulchwu'
+   'body': 'mulchwu'
+  'Mulhd':
+   'prefix': 'mulhd'
+   'body': 'mulhd'
+  'Mulhdu':
+   'prefix': 'mulhdu'
+   'body': 'mulhdu'
+  'Mulhhw':
+   'prefix': 'mulhhw'
+   'body': 'mulhhw'
+  'Mulhhwu':
+   'prefix': 'mulhhwu'
+   'body': 'mulhhwu'
+  'Mulhw':
+   'prefix': 'mulhw'
+   'body': 'mulhw'
+  'Mulhwu':
+   'prefix': 'mulhwu'
+   'body': 'mulhwu'
+  'Muli':
+   'prefix': 'muli'
+   'body': 'muli'
+  'Mulld':
+   'prefix': 'mulld'
+   'body': 'mulld'
+  'Mulldo':
+   'prefix': 'mulldo'
+   'body': 'mulldo'
+  'Mullhw':
+   'prefix': 'mullhw'
+   'body': 'mullhw'
+  'Mullhwu':
+   'prefix': 'mullhwu'
+   'body': 'mullhwu'
+  'Mulli':
+   'prefix': 'mulli'
+   'body': 'mulli'
+  'Mullw':
+   'prefix': 'mullw'
+   'body': 'mullw'
+  'Mullwo':
+   'prefix': 'mullwo'
+   'body': 'mullwo'
+  'Mulo':
+   'prefix': 'mulo'
+   'body': 'mulo'
+  'Muls':
+   'prefix': 'muls'
+   'body': 'muls'
+  'Mulso':
+   'prefix': 'mulso'
+   'body': 'mulso'
+  'Nabs':
+   'prefix': 'nabs'
+   'body': 'nabs'
+  'Nabso':
+   'prefix': 'nabso'
+   'body': 'nabso'
+  'Nand':
+   'prefix': 'nand'
+   'body': 'nand'
+  'Nap':
+   'prefix': 'nap'
+   'body': 'nap'
+  'Neg':
+   'prefix': 'neg'
+   'body': 'neg'
+  'Nego':
+   'prefix': 'nego'
+   'body': 'nego'
+  'Nmacchw':
+   'prefix': 'nmacchw'
+   'body': 'nmacchw'
+  'Nmacchwo':
+   'prefix': 'nmacchwo'
+   'body': 'nmacchwo'
+  'Nmacchws':
+   'prefix': 'nmacchws'
+   'body': 'nmacchws'
+  'Nmacchwso':
+   'prefix': 'nmacchwso'
+   'body': 'nmacchwso'
+  'Nmachhw':
+   'prefix': 'nmachhw'
+   'body': 'nmachhw'
+  'Nmachhwo':
+   'prefix': 'nmachhwo'
+   'body': 'nmachhwo'
+  'Nmachhws':
+   'prefix': 'nmachhws'
+   'body': 'nmachhws'
+  'Nmachhwso':
+   'prefix': 'nmachhwso'
+   'body': 'nmachhwso'
+  'Nmaclhw':
+   'prefix': 'nmaclhw'
+   'body': 'nmaclhw'
+  'Nmaclhwo':
+   'prefix': 'nmaclhwo'
+   'body': 'nmaclhwo'
+  'Nmaclhws':
+   'prefix': 'nmaclhws'
+   'body': 'nmaclhws'
+  'Nmaclhwso':
+   'prefix': 'nmaclhwso'
+   'body': 'nmaclhwso'
+  'Nop':
+   'prefix': 'nop'
+   'body': 'nop'
+  'Nor':
+   'prefix': 'nor'
+   'body': 'nor'
+  'Not':
+   'prefix': 'not'
+   'body': 'not'
+  'Or':
+   'prefix': 'or'
+   'body': 'or'
+  'Orc':
+   'prefix': 'orc'
+   'body': 'orc'
+  'Ori':
+   'prefix': 'ori'
+   'body': 'ori'
+  'Oril':
+   'prefix': 'oril'
+   'body': 'oril'
+  'Oris':
+   'prefix': 'oris'
+   'body': 'oris'
+  'Oriu':
+   'prefix': 'oriu'
+   'body': 'oriu'
+  'Popcntb':
+   'prefix': 'popcntb'
+   'body': 'popcntb'
+  'Prtyd':
+   'prefix': 'prtyd'
+   'body': 'prtyd'
+  'Prtyw':
+   'prefix': 'prtyw'
+   'body': 'prtyw'
+  'Ptesync':
+   'prefix': 'ptesync'
+   'body': 'ptesync'
+  'Rac':
+   'prefix': 'rac'
+   'body': 'rac'
+  'Rfci':
+   'prefix': 'rfci'
+   'body': 'rfci'
+  'Rfi':
+   'prefix': 'rfi'
+   'body': 'rfi'
+  'Rfid':
+   'prefix': 'rfid'
+   'body': 'rfid'
+  'Rfmci':
+   'prefix': 'rfmci'
+   'body': 'rfmci'
+  'Rfsvc':
+   'prefix': 'rfsvc'
+   'body': 'rfsvc'
+  'Rldcl':
+   'prefix': 'rldcl'
+   'body': 'rldcl'
+  'Rldcr':
+   'prefix': 'rldcr'
+   'body': 'rldcr'
+  'Rldic':
+   'prefix': 'rldic'
+   'body': 'rldic'
+  'Rldicl':
+   'prefix': 'rldicl'
+   'body': 'rldicl'
+  'Rldicr':
+   'prefix': 'rldicr'
+   'body': 'rldicr'
+  'Rldimi':
+   'prefix': 'rldimi'
+   'body': 'rldimi'
+  'Rlimi':
+   'prefix': 'rlimi'
+   'body': 'rlimi'
+  'Rlinm':
+   'prefix': 'rlinm'
+   'body': 'rlinm'
+  'Rlmi':
+   'prefix': 'rlmi'
+   'body': 'rlmi'
+  'Rlnm':
+   'prefix': 'rlnm'
+   'body': 'rlnm'
+  'Rlwimi':
+   'prefix': 'rlwimi'
+   'body': 'rlwimi'
+  'Rlwinm':
+   'prefix': 'rlwinm'
+   'body': 'rlwinm'
+  'Rlwnm':
+   'prefix': 'rlwnm'
+   'body': 'rlwnm'
+  'Rotld':
+   'prefix': 'rotld'
+   'body': 'rotld'
+  'Rotldi':
+   'prefix': 'rotldi'
+   'body': 'rotldi'
+  'Rotlw':
+   'prefix': 'rotlw'
+   'body': 'rotlw'
+  'Rotlwi':
+   'prefix': 'rotlwi'
+   'body': 'rotlwi'
+  'Rotrdi':
+   'prefix': 'rotrdi'
+   'body': 'rotrdi'
+  'Rotrwi':
+   'prefix': 'rotrwi'
+   'body': 'rotrwi'
+  'Rrib':
+   'prefix': 'rrib'
+   'body': 'rrib'
+  'Rvwinkle':
+   'prefix': 'rvwinkle'
+   'body': 'rvwinkle'
+  'Sc':
+   'prefix': 'sc'
+   'body': 'sc'
+  'Sf':
+   'prefix': 'sf'
+   'body': 'sf'
+  'Sfe':
+   'prefix': 'sfe'
+   'body': 'sfe'
+  'Sfeo':
+   'prefix': 'sfeo'
+   'body': 'sfeo'
+  'Sfi':
+   'prefix': 'sfi'
+   'body': 'sfi'
+  'Sfme':
+   'prefix': 'sfme'
+   'body': 'sfme'
+  'Sfmeo':
+   'prefix': 'sfmeo'
+   'body': 'sfmeo'
+  'Sfo':
+   'prefix': 'sfo'
+   'body': 'sfo'
+  'Sfze':
+   'prefix': 'sfze'
+   'body': 'sfze'
+  'Sfzeo':
+   'prefix': 'sfzeo'
+   'body': 'sfzeo'
+  'Sl':
+   'prefix': 'sl'
+   'body': 'sl'
+  'Slbia':
+   'prefix': 'slbia'
+   'body': 'slbia'
+  'Slbie':
+   'prefix': 'slbie'
+   'body': 'slbie'
+  'Slbmfee':
+   'prefix': 'slbmfee'
+   'body': 'slbmfee'
+  'Slbmfev':
+   'prefix': 'slbmfev'
+   'body': 'slbmfev'
+  'Slbmte':
+   'prefix': 'slbmte'
+   'body': 'slbmte'
+  'Sld':
+   'prefix': 'sld'
+   'body': 'sld'
+  'Sldi':
+   'prefix': 'sldi'
+   'body': 'sldi'
+  'Sle':
+   'prefix': 'sle'
+   'body': 'sle'
+  'Sleep':
+   'prefix': 'sleep'
+   'body': 'sleep'
+  'Sleq':
+   'prefix': 'sleq'
+   'body': 'sleq'
+  'Sli':
+   'prefix': 'sli'
+   'body': 'sli'
+  'Sliq':
+   'prefix': 'sliq'
+   'body': 'sliq'
+  'Slliq':
+   'prefix': 'slliq'
+   'body': 'slliq'
+  'Sllq':
+   'prefix': 'sllq'
+   'body': 'sllq'
+  'Slq':
+   'prefix': 'slq'
+   'body': 'slq'
+  'Slw':
+   'prefix': 'slw'
+   'body': 'slw'
+  'Slwi':
+   'prefix': 'slwi'
+   'body': 'slwi'
+  'Sr':
+   'prefix': 'sr'
+   'body': 'sr'
+  'Sra':
+   'prefix': 'sra'
+   'body': 'sra'
+  'Srad':
+   'prefix': 'srad'
+   'body': 'srad'
+  'Sradi':
+   'prefix': 'sradi'
+   'body': 'sradi'
+  'Srai':
+   'prefix': 'srai'
+   'body': 'srai'
+  'Sraiq':
+   'prefix': 'sraiq'
+   'body': 'sraiq'
+  'Sraq':
+   'prefix': 'sraq'
+   'body': 'sraq'
+  'Sraw':
+   'prefix': 'sraw'
+   'body': 'sraw'
+  'Srawi':
+   'prefix': 'srawi'
+   'body': 'srawi'
+  'Srd':
+   'prefix': 'srd'
+   'body': 'srd'
+  'Srdi':
+   'prefix': 'srdi'
+   'body': 'srdi'
+  'Sre':
+   'prefix': 'sre'
+   'body': 'sre'
+  'Srea':
+   'prefix': 'srea'
+   'body': 'srea'
+  'Sreq':
+   'prefix': 'sreq'
+   'body': 'sreq'
+  'Sri':
+   'prefix': 'sri'
+   'body': 'sri'
+  'Sriq':
+   'prefix': 'sriq'
+   'body': 'sriq'
+  'Srliq':
+   'prefix': 'srliq'
+   'body': 'srliq'
+  'Srlq':
+   'prefix': 'srlq'
+   'body': 'srlq'
+  'Srq':
+   'prefix': 'srq'
+   'body': 'srq'
+  'Srw':
+   'prefix': 'srw'
+   'body': 'srw'
+  'Srwi':
+   'prefix': 'srwi'
+   'body': 'srwi'
+  'St':
+   'prefix': 'st'
+   'body': 'st'
+  'Stb':
+   'prefix': 'stb'
+   'body': 'stb'
+  'Stbcix':
+   'prefix': 'stbcix'
+   'body': 'stbcix'
+  'Stbe':
+   'prefix': 'stbe'
+   'body': 'stbe'
+  'Stbrx':
+   'prefix': 'stbrx'
+   'body': 'stbrx'
+  'Stbu':
+   'prefix': 'stbu'
+   'body': 'stbu'
+  'Stbue':
+   'prefix': 'stbue'
+   'body': 'stbue'
+  'Stbux':
+   'prefix': 'stbux'
+   'body': 'stbux'
+  'Stbuxe':
+   'prefix': 'stbuxe'
+   'body': 'stbuxe'
+  'Stbx':
+   'prefix': 'stbx'
+   'body': 'stbx'
+  'Stbxe':
+   'prefix': 'stbxe'
+   'body': 'stbxe'
+  'Std':
+   'prefix': 'std'
+   'body': 'std'
+  'Stdbrx':
+   'prefix': 'stdbrx'
+   'body': 'stdbrx'
+  'Stdcix':
+   'prefix': 'stdcix'
+   'body': 'stdcix'
+  'Stde':
+   'prefix': 'stde'
+   'body': 'stde'
+  'Stdu':
+   'prefix': 'stdu'
+   'body': 'stdu'
+  'Stdue':
+   'prefix': 'stdue'
+   'body': 'stdue'
+  'Stdux':
+   'prefix': 'stdux'
+   'body': 'stdux'
+  'Stduxe':
+   'prefix': 'stduxe'
+   'body': 'stduxe'
+  'Stdx':
+   'prefix': 'stdx'
+   'body': 'stdx'
+  'Stdxe':
+   'prefix': 'stdxe'
+   'body': 'stdxe'
+  'Stfd':
+   'prefix': 'stfd'
+   'body': 'stfd'
+  'Stfde':
+   'prefix': 'stfde'
+   'body': 'stfde'
+  'Stfdp':
+   'prefix': 'stfdp'
+   'body': 'stfdp'
+  'Stfdpx':
+   'prefix': 'stfdpx'
+   'body': 'stfdpx'
+  'Stfdu':
+   'prefix': 'stfdu'
+   'body': 'stfdu'
+  'Stfdue':
+   'prefix': 'stfdue'
+   'body': 'stfdue'
+  'Stfdux':
+   'prefix': 'stfdux'
+   'body': 'stfdux'
+  'Stfduxe':
+   'prefix': 'stfduxe'
+   'body': 'stfduxe'
+  'Stfdx':
+   'prefix': 'stfdx'
+   'body': 'stfdx'
+  'Stfdxe':
+   'prefix': 'stfdxe'
+   'body': 'stfdxe'
+  'Stfiwx':
+   'prefix': 'stfiwx'
+   'body': 'stfiwx'
+  'Stfiwxe':
+   'prefix': 'stfiwxe'
+   'body': 'stfiwxe'
+  'Stfq':
+   'prefix': 'stfq'
+   'body': 'stfq'
+  'Stfqu':
+   'prefix': 'stfqu'
+   'body': 'stfqu'
+  'Stfqux':
+   'prefix': 'stfqux'
+   'body': 'stfqux'
+  'Stfqx':
+   'prefix': 'stfqx'
+   'body': 'stfqx'
+  'Stfs':
+   'prefix': 'stfs'
+   'body': 'stfs'
+  'Stfse':
+   'prefix': 'stfse'
+   'body': 'stfse'
+  'Stfsu':
+   'prefix': 'stfsu'
+   'body': 'stfsu'
+  'Stfsue':
+   'prefix': 'stfsue'
+   'body': 'stfsue'
+  'Stfsux':
+   'prefix': 'stfsux'
+   'body': 'stfsux'
+  'Stfsuxe':
+   'prefix': 'stfsuxe'
+   'body': 'stfsuxe'
+  'Stfsx':
+   'prefix': 'stfsx'
+   'body': 'stfsx'
+  'Stfsxe':
+   'prefix': 'stfsxe'
+   'body': 'stfsxe'
+  'Sth':
+   'prefix': 'sth'
+   'body': 'sth'
+  'Sthbrx':
+   'prefix': 'sthbrx'
+   'body': 'sthbrx'
+  'Sthbrxe':
+   'prefix': 'sthbrxe'
+   'body': 'sthbrxe'
+  'Sthcix':
+   'prefix': 'sthcix'
+   'body': 'sthcix'
+  'Sthe':
+   'prefix': 'sthe'
+   'body': 'sthe'
+  'Sthu':
+   'prefix': 'sthu'
+   'body': 'sthu'
+  'Sthue':
+   'prefix': 'sthue'
+   'body': 'sthue'
+  'Sthux':
+   'prefix': 'sthux'
+   'body': 'sthux'
+  'Sthuxe':
+   'prefix': 'sthuxe'
+   'body': 'sthuxe'
+  'Sthx':
+   'prefix': 'sthx'
+   'body': 'sthx'
+  'Sthxe':
+   'prefix': 'sthxe'
+   'body': 'sthxe'
+  'Stm':
+   'prefix': 'stm'
+   'body': 'stm'
+  'Stmw':
+   'prefix': 'stmw'
+   'body': 'stmw'
+  'Stq':
+   'prefix': 'stq'
+   'body': 'stq'
+  'Stsi':
+   'prefix': 'stsi'
+   'body': 'stsi'
+  'Stswi':
+   'prefix': 'stswi'
+   'body': 'stswi'
+  'Stswx':
+   'prefix': 'stswx'
+   'body': 'stswx'
+  'Stsx':
+   'prefix': 'stsx'
+   'body': 'stsx'
+  'Stu':
+   'prefix': 'stu'
+   'body': 'stu'
+  'Stux':
+   'prefix': 'stux'
+   'body': 'stux'
+  'Stvebx':
+   'prefix': 'stvebx'
+   'body': 'stvebx'
+  'Stvehx':
+   'prefix': 'stvehx'
+   'body': 'stvehx'
+  'Stvewx':
+   'prefix': 'stvewx'
+   'body': 'stvewx'
+  'Stvlx':
+   'prefix': 'stvlx'
+   'body': 'stvlx'
+  'Stvlxl':
+   'prefix': 'stvlxl'
+   'body': 'stvlxl'
+  'Stvrx':
+   'prefix': 'stvrx'
+   'body': 'stvrx'
+  'Stvrxl':
+   'prefix': 'stvrxl'
+   'body': 'stvrxl'
+  'Stvx':
+   'prefix': 'stvx'
+   'body': 'stvx'
+  'Stvxl':
+   'prefix': 'stvxl'
+   'body': 'stvxl'
+  'Stw':
+   'prefix': 'stw'
+   'body': 'stw'
+  'Stwbrx':
+   'prefix': 'stwbrx'
+   'body': 'stwbrx'
+  'Stwbrxe':
+   'prefix': 'stwbrxe'
+   'body': 'stwbrxe'
+  'Stwcix':
+   'prefix': 'stwcix'
+   'body': 'stwcix'
+  'Stwe':
+   'prefix': 'stwe'
+   'body': 'stwe'
+  'Stwu':
+   'prefix': 'stwu'
+   'body': 'stwu'
+  'Stwue':
+   'prefix': 'stwue'
+   'body': 'stwue'
+  'Stwux':
+   'prefix': 'stwux'
+   'body': 'stwux'
+  'Stwuxe':
+   'prefix': 'stwuxe'
+   'body': 'stwuxe'
+  'Stwx':
+   'prefix': 'stwx'
+   'body': 'stwx'
+  'Stwxe':
+   'prefix': 'stwxe'
+   'body': 'stwxe'
+  'Stx':
+   'prefix': 'stx'
+   'body': 'stx'
+  'Sub':
+   'prefix': 'sub'
+   'body': 'sub'
+  'Subc':
+   'prefix': 'subc'
+   'body': 'subc'
+  'Subco':
+   'prefix': 'subco'
+   'body': 'subco'
+  'Subf':
+   'prefix': 'subf'
+   'body': 'subf'
+  'Subfc':
+   'prefix': 'subfc'
+   'body': 'subfc'
+  'Subfco':
+   'prefix': 'subfco'
+   'body': 'subfco'
+  'Subfe':
+   'prefix': 'subfe'
+   'body': 'subfe'
+  'Subfe64':
+   'prefix': 'subfe64'
+   'body': 'subfe64'
+  'Subfe64o':
+   'prefix': 'subfe64o'
+   'body': 'subfe64o'
+  'Subfeo':
+   'prefix': 'subfeo'
+   'body': 'subfeo'
+  'Subfic':
+   'prefix': 'subfic'
+   'body': 'subfic'
+  'Subfme':
+   'prefix': 'subfme'
+   'body': 'subfme'
+  'Subfme64':
+   'prefix': 'subfme64'
+   'body': 'subfme64'
+  'Subfme64o':
+   'prefix': 'subfme64o'
+   'body': 'subfme64o'
+  'Subfmeo':
+   'prefix': 'subfmeo'
+   'body': 'subfmeo'
+  'Subfo':
+   'prefix': 'subfo'
+   'body': 'subfo'
+  'Subfze':
+   'prefix': 'subfze'
+   'body': 'subfze'
+  'Subfze64':
+   'prefix': 'subfze64'
+   'body': 'subfze64'
+  'Subfze64o':
+   'prefix': 'subfze64o'
+   'body': 'subfze64o'
+  'Subfzeo':
+   'prefix': 'subfzeo'
+   'body': 'subfzeo'
+  'Subi':
+   'prefix': 'subi'
+   'body': 'subi'
+  'Subic':
+   'prefix': 'subic'
+   'body': 'subic'
+  'Subis':
+   'prefix': 'subis'
+   'body': 'subis'
+  'Subo':
+   'prefix': 'subo'
+   'body': 'subo'
+  'Svc':
+   'prefix': 'svc'
+   'body': 'svc'
+  'Svca':
+   'prefix': 'svca'
+   'body': 'svca'
+  'Svcl':
+   'prefix': 'svcl'
+   'body': 'svcl'
+  'Svcla':
+   'prefix': 'svcla'
+   'body': 'svcla'
+  'Sync':
+   'prefix': 'sync'
+   'body': 'sync'
+  'T':
+   'prefix': 't'
+   'body': 't'
+  'Td':
+   'prefix': 'td'
+   'body': 'td'
+  'Tdeq':
+   'prefix': 'tdeq'
+   'body': 'tdeq'
+  'Tdeqi':
+   'prefix': 'tdeqi'
+   'body': 'tdeqi'
+  'Tdge':
+   'prefix': 'tdge'
+   'body': 'tdge'
+  'Tdgei':
+   'prefix': 'tdgei'
+   'body': 'tdgei'
+  'Tdgt':
+   'prefix': 'tdgt'
+   'body': 'tdgt'
+  'Tdgti':
+   'prefix': 'tdgti'
+   'body': 'tdgti'
+  'Tdi':
+   'prefix': 'tdi'
+   'body': 'tdi'
+  'Tdle':
+   'prefix': 'tdle'
+   'body': 'tdle'
+  'Tdlei':
+   'prefix': 'tdlei'
+   'body': 'tdlei'
+  'Tdlge':
+   'prefix': 'tdlge'
+   'body': 'tdlge'
+  'Tdlgei':
+   'prefix': 'tdlgei'
+   'body': 'tdlgei'
+  'Tdlgt':
+   'prefix': 'tdlgt'
+   'body': 'tdlgt'
+  'Tdlgti':
+   'prefix': 'tdlgti'
+   'body': 'tdlgti'
+  'Tdlle':
+   'prefix': 'tdlle'
+   'body': 'tdlle'
+  'Tdllei':
+   'prefix': 'tdllei'
+   'body': 'tdllei'
+  'Tdllt':
+   'prefix': 'tdllt'
+   'body': 'tdllt'
+  'Tdllti':
+   'prefix': 'tdllti'
+   'body': 'tdllti'
+  'Tdlng':
+   'prefix': 'tdlng'
+   'body': 'tdlng'
+  'Tdlngi':
+   'prefix': 'tdlngi'
+   'body': 'tdlngi'
+  'Tdlnl':
+   'prefix': 'tdlnl'
+   'body': 'tdlnl'
+  'Tdlnli':
+   'prefix': 'tdlnli'
+   'body': 'tdlnli'
+  'Tdlt':
+   'prefix': 'tdlt'
+   'body': 'tdlt'
+  'Tdlti':
+   'prefix': 'tdlti'
+   'body': 'tdlti'
+  'Tdne':
+   'prefix': 'tdne'
+   'body': 'tdne'
+  'Tdnei':
+   'prefix': 'tdnei'
+   'body': 'tdnei'
+  'Tdng':
+   'prefix': 'tdng'
+   'body': 'tdng'
+  'Tdngi':
+   'prefix': 'tdngi'
+   'body': 'tdngi'
+  'Tdnl':
+   'prefix': 'tdnl'
+   'body': 'tdnl'
+  'Tdnli':
+   'prefix': 'tdnli'
+   'body': 'tdnli'
+  'Teq':
+   'prefix': 'teq'
+   'body': 'teq'
+  'Teqi':
+   'prefix': 'teqi'
+   'body': 'teqi'
+  'Tge':
+   'prefix': 'tge'
+   'body': 'tge'
+  'Tgei':
+   'prefix': 'tgei'
+   'body': 'tgei'
+  'Tgt':
+   'prefix': 'tgt'
+   'body': 'tgt'
+  'Tgti':
+   'prefix': 'tgti'
+   'body': 'tgti'
+  'Ti':
+   'prefix': 'ti'
+   'body': 'ti'
+  'Tlbi':
+   'prefix': 'tlbi'
+   'body': 'tlbi'
+  'Tlbia':
+   'prefix': 'tlbia'
+   'body': 'tlbia'
+  'Tlbie':
+   'prefix': 'tlbie'
+   'body': 'tlbie'
+  'Tlbiel':
+   'prefix': 'tlbiel'
+   'body': 'tlbiel'
+  'Tlbivax':
+   'prefix': 'tlbivax'
+   'body': 'tlbivax'
+  'Tlbivaxe':
+   'prefix': 'tlbivaxe'
+   'body': 'tlbivaxe'
+  'Tlbld':
+   'prefix': 'tlbld'
+   'body': 'tlbld'
+  'Tlbli':
+   'prefix': 'tlbli'
+   'body': 'tlbli'
+  'Tlbre':
+   'prefix': 'tlbre'
+   'body': 'tlbre'
+  'Tlbrehi':
+   'prefix': 'tlbrehi'
+   'body': 'tlbrehi'
+  'Tlbrelo':
+   'prefix': 'tlbrelo'
+   'body': 'tlbrelo'
+  'Tlbsx':
+   'prefix': 'tlbsx'
+   'body': 'tlbsx'
+  'Tlbsxe':
+   'prefix': 'tlbsxe'
+   'body': 'tlbsxe'
+  'Tlbsync':
+   'prefix': 'tlbsync'
+   'body': 'tlbsync'
+  'Tlbwe':
+   'prefix': 'tlbwe'
+   'body': 'tlbwe'
+  'Tlbwehi':
+   'prefix': 'tlbwehi'
+   'body': 'tlbwehi'
+  'Tlbwelo':
+   'prefix': 'tlbwelo'
+   'body': 'tlbwelo'
+  'Tle':
+   'prefix': 'tle'
+   'body': 'tle'
+  'Tlei':
+   'prefix': 'tlei'
+   'body': 'tlei'
+  'Tlge':
+   'prefix': 'tlge'
+   'body': 'tlge'
+  'Tlgei':
+   'prefix': 'tlgei'
+   'body': 'tlgei'
+  'Tlgt':
+   'prefix': 'tlgt'
+   'body': 'tlgt'
+  'Tlgti':
+   'prefix': 'tlgti'
+   'body': 'tlgti'
+  'Tlle':
+   'prefix': 'tlle'
+   'body': 'tlle'
+  'Tllei':
+   'prefix': 'tllei'
+   'body': 'tllei'
+  'Tllt':
+   'prefix': 'tllt'
+   'body': 'tllt'
+  'Tllti':
+   'prefix': 'tllti'
+   'body': 'tllti'
+  'Tlng':
+   'prefix': 'tlng'
+   'body': 'tlng'
+  'Tlngi':
+   'prefix': 'tlngi'
+   'body': 'tlngi'
+  'Tlnl':
+   'prefix': 'tlnl'
+   'body': 'tlnl'
+  'Tlnli':
+   'prefix': 'tlnli'
+   'body': 'tlnli'
+  'Tlt':
+   'prefix': 'tlt'
+   'body': 'tlt'
+  'Tlti':
+   'prefix': 'tlti'
+   'body': 'tlti'
+  'Tne':
+   'prefix': 'tne'
+   'body': 'tne'
+  'Tnei':
+   'prefix': 'tnei'
+   'body': 'tnei'
+  'Tng':
+   'prefix': 'tng'
+   'body': 'tng'
+  'Tngi':
+   'prefix': 'tngi'
+   'body': 'tngi'
+  'Tnl':
+   'prefix': 'tnl'
+   'body': 'tnl'
+  'Tnli':
+   'prefix': 'tnli'
+   'body': 'tnli'
+  'Trap':
+   'prefix': 'trap'
+   'body': 'trap'
+  'Tw':
+   'prefix': 'tw'
+   'body': 'tw'
+  'Tweq':
+   'prefix': 'tweq'
+   'body': 'tweq'
+  'Tweqi':
+   'prefix': 'tweqi'
+   'body': 'tweqi'
+  'Twge':
+   'prefix': 'twge'
+   'body': 'twge'
+  'Twgei':
+   'prefix': 'twgei'
+   'body': 'twgei'
+  'Twgt':
+   'prefix': 'twgt'
+   'body': 'twgt'
+  'Twgti':
+   'prefix': 'twgti'
+   'body': 'twgti'
+  'Twi':
+   'prefix': 'twi'
+   'body': 'twi'
+  'Twle':
+   'prefix': 'twle'
+   'body': 'twle'
+  'Twlei':
+   'prefix': 'twlei'
+   'body': 'twlei'
+  'Twlge':
+   'prefix': 'twlge'
+   'body': 'twlge'
+  'Twlgei':
+   'prefix': 'twlgei'
+   'body': 'twlgei'
+  'Twlgt':
+   'prefix': 'twlgt'
+   'body': 'twlgt'
+  'Twlgti':
+   'prefix': 'twlgti'
+   'body': 'twlgti'
+  'Twlle':
+   'prefix': 'twlle'
+   'body': 'twlle'
+  'Twllei':
+   'prefix': 'twllei'
+   'body': 'twllei'
+  'Twllt':
+   'prefix': 'twllt'
+   'body': 'twllt'
+  'Twllti':
+   'prefix': 'twllti'
+   'body': 'twllti'
+  'Twlng':
+   'prefix': 'twlng'
+   'body': 'twlng'
+  'Twlngi':
+   'prefix': 'twlngi'
+   'body': 'twlngi'
+  'Twlnl':
+   'prefix': 'twlnl'
+   'body': 'twlnl'
+  'Twlnli':
+   'prefix': 'twlnli'
+   'body': 'twlnli'
+  'Twlt':
+   'prefix': 'twlt'
+   'body': 'twlt'
+  'Twlti':
+   'prefix': 'twlti'
+   'body': 'twlti'
+  'Twne':
+   'prefix': 'twne'
+   'body': 'twne'
+  'Twnei':
+   'prefix': 'twnei'
+   'body': 'twnei'
+  'Twng':
+   'prefix': 'twng'
+   'body': 'twng'
+  'Twngi':
+   'prefix': 'twngi'
+   'body': 'twngi'
+  'Twnl':
+   'prefix': 'twnl'
+   'body': 'twnl'
+  'Twnli':
+   'prefix': 'twnli'
+   'body': 'twnli'
+  'Vaddcuw':
+   'prefix': 'vaddcuw'
+   'body': 'vaddcuw'
+  'Vaddfp':
+   'prefix': 'vaddfp'
+   'body': 'vaddfp'
+  'Vaddsbs':
+   'prefix': 'vaddsbs'
+   'body': 'vaddsbs'
+  'Vaddshs':
+   'prefix': 'vaddshs'
+   'body': 'vaddshs'
+  'Vaddsws':
+   'prefix': 'vaddsws'
+   'body': 'vaddsws'
+  'Vaddubm':
+   'prefix': 'vaddubm'
+   'body': 'vaddubm'
+  'Vaddubs':
+   'prefix': 'vaddubs'
+   'body': 'vaddubs'
+  'Vadduhm':
+   'prefix': 'vadduhm'
+   'body': 'vadduhm'
+  'Vadduhs':
+   'prefix': 'vadduhs'
+   'body': 'vadduhs'
+  'Vadduwm':
+   'prefix': 'vadduwm'
+   'body': 'vadduwm'
+  'Vadduws':
+   'prefix': 'vadduws'
+   'body': 'vadduws'
+  'Vand':
+   'prefix': 'vand'
+   'body': 'vand'
+  'Vandc':
+   'prefix': 'vandc'
+   'body': 'vandc'
+  'Vavgsb':
+   'prefix': 'vavgsb'
+   'body': 'vavgsb'
+  'Vavgsh':
+   'prefix': 'vavgsh'
+   'body': 'vavgsh'
+  'Vavgsw':
+   'prefix': 'vavgsw'
+   'body': 'vavgsw'
+  'Vavgub':
+   'prefix': 'vavgub'
+   'body': 'vavgub'
+  'Vavguh':
+   'prefix': 'vavguh'
+   'body': 'vavguh'
+  'Vavguw':
+   'prefix': 'vavguw'
+   'body': 'vavguw'
+  'Vcfsx':
+   'prefix': 'vcfsx'
+   'body': 'vcfsx'
+  'Vcfux':
+   'prefix': 'vcfux'
+   'body': 'vcfux'
+  'Vcmpbfp':
+   'prefix': 'vcmpbfp'
+   'body': 'vcmpbfp'
+  'Vcmpeqfp':
+   'prefix': 'vcmpeqfp'
+   'body': 'vcmpeqfp'
+  'Vcmpequb':
+   'prefix': 'vcmpequb'
+   'body': 'vcmpequb'
+  'Vcmpequh':
+   'prefix': 'vcmpequh'
+   'body': 'vcmpequh'
+  'Vcmpequw':
+   'prefix': 'vcmpequw'
+   'body': 'vcmpequw'
+  'Vcmpgefp':
+   'prefix': 'vcmpgefp'
+   'body': 'vcmpgefp'
+  'Vcmpgtfp':
+   'prefix': 'vcmpgtfp'
+   'body': 'vcmpgtfp'
+  'Vcmpgtsb':
+   'prefix': 'vcmpgtsb'
+   'body': 'vcmpgtsb'
+  'Vcmpgtsh':
+   'prefix': 'vcmpgtsh'
+   'body': 'vcmpgtsh'
+  'Vcmpgtsw':
+   'prefix': 'vcmpgtsw'
+   'body': 'vcmpgtsw'
+  'Vcmpgtub':
+   'prefix': 'vcmpgtub'
+   'body': 'vcmpgtub'
+  'Vcmpgtuh':
+   'prefix': 'vcmpgtuh'
+   'body': 'vcmpgtuh'
+  'Vcmpgtuw':
+   'prefix': 'vcmpgtuw'
+   'body': 'vcmpgtuw'
+  'Vctsxs':
+   'prefix': 'vctsxs'
+   'body': 'vctsxs'
+  'Vctuxs':
+   'prefix': 'vctuxs'
+   'body': 'vctuxs'
+  'Vexptefp':
+   'prefix': 'vexptefp'
+   'body': 'vexptefp'
+  'Vlogefp':
+   'prefix': 'vlogefp'
+   'body': 'vlogefp'
+  'Vmaddfp':
+   'prefix': 'vmaddfp'
+   'body': 'vmaddfp'
+  'Vmaxfp':
+   'prefix': 'vmaxfp'
+   'body': 'vmaxfp'
+  'Vmaxsb':
+   'prefix': 'vmaxsb'
+   'body': 'vmaxsb'
+  'Vmaxsh':
+   'prefix': 'vmaxsh'
+   'body': 'vmaxsh'
+  'Vmaxsw':
+   'prefix': 'vmaxsw'
+   'body': 'vmaxsw'
+  'Vmaxub':
+   'prefix': 'vmaxub'
+   'body': 'vmaxub'
+  'Vmaxuh':
+   'prefix': 'vmaxuh'
+   'body': 'vmaxuh'
+  'Vmaxuw':
+   'prefix': 'vmaxuw'
+   'body': 'vmaxuw'
+  'Vmhaddshs':
+   'prefix': 'vmhaddshs'
+   'body': 'vmhaddshs'
+  'Vmhraddshs':
+   'prefix': 'vmhraddshs'
+   'body': 'vmhraddshs'
+  'Vminfp':
+   'prefix': 'vminfp'
+   'body': 'vminfp'
+  'Vminsb':
+   'prefix': 'vminsb'
+   'body': 'vminsb'
+  'Vminsh':
+   'prefix': 'vminsh'
+   'body': 'vminsh'
+  'Vminsw':
+   'prefix': 'vminsw'
+   'body': 'vminsw'
+  'Vminub':
+   'prefix': 'vminub'
+   'body': 'vminub'
+  'Vminuh':
+   'prefix': 'vminuh'
+   'body': 'vminuh'
+  'Vminuw':
+   'prefix': 'vminuw'
+   'body': 'vminuw'
+  'Vmladduhm':
+   'prefix': 'vmladduhm'
+   'body': 'vmladduhm'
+  'Vmrghb':
+   'prefix': 'vmrghb'
+   'body': 'vmrghb'
+  'Vmrghh':
+   'prefix': 'vmrghh'
+   'body': 'vmrghh'
+  'Vmrghw':
+   'prefix': 'vmrghw'
+   'body': 'vmrghw'
+  'Vmrglb':
+   'prefix': 'vmrglb'
+   'body': 'vmrglb'
+  'Vmrglh':
+   'prefix': 'vmrglh'
+   'body': 'vmrglh'
+  'Vmrglw':
+   'prefix': 'vmrglw'
+   'body': 'vmrglw'
+  'Vmsummbm':
+   'prefix': 'vmsummbm'
+   'body': 'vmsummbm'
+  'Vmsumshm':
+   'prefix': 'vmsumshm'
+   'body': 'vmsumshm'
+  'Vmsumshs':
+   'prefix': 'vmsumshs'
+   'body': 'vmsumshs'
+  'Vmsumubm':
+   'prefix': 'vmsumubm'
+   'body': 'vmsumubm'
+  'Vmsumuhm':
+   'prefix': 'vmsumuhm'
+   'body': 'vmsumuhm'
+  'Vmsumuhs':
+   'prefix': 'vmsumuhs'
+   'body': 'vmsumuhs'
+  'Vmulesb':
+   'prefix': 'vmulesb'
+   'body': 'vmulesb'
+  'Vmulesh':
+   'prefix': 'vmulesh'
+   'body': 'vmulesh'
+  'Vmuleub':
+   'prefix': 'vmuleub'
+   'body': 'vmuleub'
+  'Vmuleuh':
+   'prefix': 'vmuleuh'
+   'body': 'vmuleuh'
+  'Vmulosb':
+   'prefix': 'vmulosb'
+   'body': 'vmulosb'
+  'Vmulosh':
+   'prefix': 'vmulosh'
+   'body': 'vmulosh'
+  'Vmuloub':
+   'prefix': 'vmuloub'
+   'body': 'vmuloub'
+  'Vmulouh':
+   'prefix': 'vmulouh'
+   'body': 'vmulouh'
+  'Vnmsubfp':
+   'prefix': 'vnmsubfp'
+   'body': 'vnmsubfp'
+  'Vnor':
+   'prefix': 'vnor'
+   'body': 'vnor'
+  'Vor':
+   'prefix': 'vor'
+   'body': 'vor'
+  'Vperm':
+   'prefix': 'vperm'
+   'body': 'vperm'
+  'Vpkpx':
+   'prefix': 'vpkpx'
+   'body': 'vpkpx'
+  'Vpkshss':
+   'prefix': 'vpkshss'
+   'body': 'vpkshss'
+  'Vpkshus':
+   'prefix': 'vpkshus'
+   'body': 'vpkshus'
+  'Vpkswss':
+   'prefix': 'vpkswss'
+   'body': 'vpkswss'
+  'Vpkswus':
+   'prefix': 'vpkswus'
+   'body': 'vpkswus'
+  'Vpkuhum':
+   'prefix': 'vpkuhum'
+   'body': 'vpkuhum'
+  'Vpkuhus':
+   'prefix': 'vpkuhus'
+   'body': 'vpkuhus'
+  'Vpkuwum':
+   'prefix': 'vpkuwum'
+   'body': 'vpkuwum'
+  'Vpkuwus':
+   'prefix': 'vpkuwus'
+   'body': 'vpkuwus'
+  'Vrefp':
+   'prefix': 'vrefp'
+   'body': 'vrefp'
+  'Vrfim':
+   'prefix': 'vrfim'
+   'body': 'vrfim'
+  'Vrfin':
+   'prefix': 'vrfin'
+   'body': 'vrfin'
+  'Vrfip':
+   'prefix': 'vrfip'
+   'body': 'vrfip'
+  'Vrfiz':
+   'prefix': 'vrfiz'
+   'body': 'vrfiz'
+  'Vrlb':
+   'prefix': 'vrlb'
+   'body': 'vrlb'
+  'Vrlh':
+   'prefix': 'vrlh'
+   'body': 'vrlh'
+  'Vrlw':
+   'prefix': 'vrlw'
+   'body': 'vrlw'
+  'Vrsqrtefp':
+   'prefix': 'vrsqrtefp'
+   'body': 'vrsqrtefp'
+  'Vsel':
+   'prefix': 'vsel'
+   'body': 'vsel'
+  'Vsl':
+   'prefix': 'vsl'
+   'body': 'vsl'
+  'Vslb':
+   'prefix': 'vslb'
+   'body': 'vslb'
+  'Vsldoi':
+   'prefix': 'vsldoi'
+   'body': 'vsldoi'
+  'Vslh':
+   'prefix': 'vslh'
+   'body': 'vslh'
+  'Vslo':
+   'prefix': 'vslo'
+   'body': 'vslo'
+  'Vslw':
+   'prefix': 'vslw'
+   'body': 'vslw'
+  'Vspltb':
+   'prefix': 'vspltb'
+   'body': 'vspltb'
+  'Vsplth':
+   'prefix': 'vsplth'
+   'body': 'vsplth'
+  'Vspltisb':
+   'prefix': 'vspltisb'
+   'body': 'vspltisb'
+  'Vspltish':
+   'prefix': 'vspltish'
+   'body': 'vspltish'
+  'Vspltisw':
+   'prefix': 'vspltisw'
+   'body': 'vspltisw'
+  'Vspltw':
+   'prefix': 'vspltw'
+   'body': 'vspltw'
+  'Vsr':
+   'prefix': 'vsr'
+   'body': 'vsr'
+  'Vsrab':
+   'prefix': 'vsrab'
+   'body': 'vsrab'
+  'Vsrah':
+   'prefix': 'vsrah'
+   'body': 'vsrah'
+  'Vsraw':
+   'prefix': 'vsraw'
+   'body': 'vsraw'
+  'Vsrb':
+   'prefix': 'vsrb'
+   'body': 'vsrb'
+  'Vsrh':
+   'prefix': 'vsrh'
+   'body': 'vsrh'
+  'Vsro':
+   'prefix': 'vsro'
+   'body': 'vsro'
+  'Vsrw':
+   'prefix': 'vsrw'
+   'body': 'vsrw'
+  'Vsubcuw':
+   'prefix': 'vsubcuw'
+   'body': 'vsubcuw'
+  'Vsubfp':
+   'prefix': 'vsubfp'
+   'body': 'vsubfp'
+  'Vsubsbs':
+   'prefix': 'vsubsbs'
+   'body': 'vsubsbs'
+  'Vsubshs':
+   'prefix': 'vsubshs'
+   'body': 'vsubshs'
+  'Vsubsws':
+   'prefix': 'vsubsws'
+   'body': 'vsubsws'
+  'Vsububm':
+   'prefix': 'vsububm'
+   'body': 'vsububm'
+  'Vsububs':
+   'prefix': 'vsububs'
+   'body': 'vsububs'
+  'Vsubuhm':
+   'prefix': 'vsubuhm'
+   'body': 'vsubuhm'
+  'Vsubuhs':
+   'prefix': 'vsubuhs'
+   'body': 'vsubuhs'
+  'Vsubuwm':
+   'prefix': 'vsubuwm'
+   'body': 'vsubuwm'
+  'Vsubuws':
+   'prefix': 'vsubuws'
+   'body': 'vsubuws'
+  'Vsum2sws':
+   'prefix': 'vsum2sws'
+   'body': 'vsum2sws'
+  'Vsum4sbs':
+   'prefix': 'vsum4sbs'
+   'body': 'vsum4sbs'
+  'Vsum4shs':
+   'prefix': 'vsum4shs'
+   'body': 'vsum4shs'
+  'Vsum4ubs':
+   'prefix': 'vsum4ubs'
+   'body': 'vsum4ubs'
+  'Vsumsws':
+   'prefix': 'vsumsws'
+   'body': 'vsumsws'
+  'Vupkhpx':
+   'prefix': 'vupkhpx'
+   'body': 'vupkhpx'
+  'Vupkhsb':
+   'prefix': 'vupkhsb'
+   'body': 'vupkhsb'
+  'Vupkhsh':
+   'prefix': 'vupkhsh'
+   'body': 'vupkhsh'
+  'Vupklpx':
+   'prefix': 'vupklpx'
+   'body': 'vupklpx'
+  'Vupklsb':
+   'prefix': 'vupklsb'
+   'body': 'vupklsb'
+  'Vupklsh':
+   'prefix': 'vupklsh'
+   'body': 'vupklsh'
+  'Vxor':
+   'prefix': 'vxor'
+   'body': 'vxor'
+  'Wrtee':
+   'prefix': 'wrtee'
+   'body': 'wrtee'
+  'Wrteei':
+   'prefix': 'wrteei'
+   'body': 'wrteei'
+  'Xor':
+   'prefix': 'xor'
+   'body': 'xor'
+  'Xori':
+   'prefix': 'xori'
+   'body': 'xori'
+  'Xoril':
+   'prefix': 'xoril'
+   'body': 'xoril'
+  'Xoris':
+   'prefix': 'xoris'
+   'body': 'xoris'

@@ -1,0 +1,15 @@
+{
+  "name": "language-powerpc",
+  "version": "0.0.1",
+  "private": true,
+  "description": "PPC support for Atom Created By iMoD1998 and Sabotage",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# Easy To Use Simply Create A .PowerPc file and open it or select PPC in the bottom Left\n",
+  "readmeFilename": "README.md",
+    "folders": []
+  }
+}
