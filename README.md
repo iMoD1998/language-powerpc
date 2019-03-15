@@ -1,6 +1,6 @@
-#Power PC Syntax Highlighting
+# Power PC Syntax Highlighting
 
-###Credits
+### Credits
 ```
 iMoD1998 - Making the syntax
 Sabotage - Helping with instruction names
